@@ -1,4 +1,4 @@
-![Ceci est un exemple d'image](https://example.com/bild.jpg]
+![Ceci est un exemple d'image](https://example.com/bild.jpg)
 
 
 
