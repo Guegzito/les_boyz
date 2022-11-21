@@ -29,7 +29,15 @@ RAD_35	26	loc35_pos25	A	G
 ```
 
 ```bash
+head pedicularis.vcf
+```
+
+```bash
 cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
+```
+
+```bash
+head pedicularislevrai.vcf
 ```
 
 ```bash
