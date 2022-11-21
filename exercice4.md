@@ -83,7 +83,7 @@ grep 0 final.txt
 
 #exercice 5
 
-```R
+```Rstudio
 #' iPyrad alleles.loci file to fasta alignments conversion
 #' @description Converts iPyrad alleles.loci file to fasta alignmets.
 #'              The alleles.loci is a specific iPyrad format that contains the phased alleles for all loci.
