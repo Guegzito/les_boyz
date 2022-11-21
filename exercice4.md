@@ -1,4 +1,4 @@
-` #!/bin/bash
+`#!/bin/bash
 cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
 
 LOC=$(cut -f 1 ./pedicularislevrai.vcf)
@@ -17,6 +17,6 @@ paste <(echo "${LOC}") <(echo "${POS}") <(echo "${ind1}") <(echo "${ind2}") <(ec
 
 (echo -e "LOC    POS   trancheaa  trancheab  trancheac  INTER" ; cat final.txt) >final2.txt
 
-cat final2.txt `
+cat final2.txt`
 
 #a la fin faire un grep 
