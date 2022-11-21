@@ -1,3 +1,6 @@
+![Ceci est un exemple d'image](https://example.com/bild.jpg]
+
+
 
 ```bash
 cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
