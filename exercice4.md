@@ -1,5 +1,5 @@
-`#!/bin/bash
-cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
+
+``cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf``
 
 LOC=$(cut -f 1 ./pedicularislevrai.vcf)
 
