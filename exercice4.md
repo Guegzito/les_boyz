@@ -1,5 +1,11 @@
 ![Ceci est un exemple d'image](https://example.com/bild.jpg)
 
+<ol>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+</ol>
+
 > okay trop fun
 
 ```bash
