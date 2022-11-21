@@ -81,7 +81,7 @@ grep 0 final.txt
 ```
 
 
-#exercice 5
+#*exercice 5*
 
 ```Rstudio
 #' iPyrad alleles.loci file to fasta alignments conversion
