@@ -1,6 +1,25 @@
 ![Ceci est un exemple d'image](https://example.com/bild.jpg)
 
+## ---
 ## title : "Un document d'exemple"
+## output : html_document
+## bibliography : bibliography.bib
+## ---
+## 
+## Les citations sont appelées grâce à la balise `@`. 
+## 
+## Il est possible d'appeler une citation de différentes manières :
+## 
+## * [@dumascomte] pour citer une référence ; 
+## * [@dumascomte ; @Balzacillusions] pour en citer plusieurs ;
+## * @dumascomte fonctionne également ;
+## * Un signe moins (-) avant le symbole @ supprime la mention du
+## nom de l'auteur :
+## 
+## Victor Hugo a marqué son siècle en publiant Les Misérables [-@hugo1863miserables].
+## 
+## 
+## # Références
 
 <ol>
     <li>item</li>
