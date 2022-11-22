@@ -522,6 +522,15 @@ création de la banque de données regroupant toutes les séquences ribosomales 
 
 ```bash
 blastdb_aliastool -dblist "SSU_eukaryote_rRNA LSU_eukaryote_rRNA ITS_eukaryote_sequences" -dbtype nucl -out ribosome_all -title "pedicularis ribosome"
+
+cat ./ribosome_all.nal
+#
+# Alias file created 11/22/2022 13:20:53
+#
+TITLE pedicularis ribosome
+DBLIST "SSU_eukaryote_rRNA" "LSU_eukaryote_rRNA" "ITS_eukaryote_sequences" 
+NSEQ 90306
+LENGTH 87778360
 ```
 La commande blastn
 
