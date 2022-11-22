@@ -126,29 +126,10 @@ On obtenait cette sortie
 On a ensuite été confronté à un problème que l'ont a résolu en utilisant la bonne vieille touche effacer de notre clavier et on a obtenu cette sortie 
 
 ```bash
-xaa     GGGAATCTCCACTCACTGCTTCCCCTAATATCCTCCCTTTACCACATCATGGGGGTTTACAGGAGATCC
-//                                                                           |0|
-xaa     GTGGTGATTTCGATGGTTTTGATGGTGTCGTGGATTGGAATGATGTGCCTGGTGGTGATTTTGACGAGG
-//                                                                           |1|
-xaa     AAGCCTGCTTGTACAGGTTGCTCAACCCGGATCGAGCTGGCGGGGCGTCTTTGTCCGATTCATTGACTG
-//                                                                           |2|
-xaa     CAGCAGCTGGTGTTCGTGTTCGTGTTCGCGCCCTTTCGCCTTTGACGCAGCACAAGAAGAGTCAAAGTC
-//                                                                           |3|
-xaa     CCACCTTTNTTCCGGTGNTTTTTTTTTATCAATTTAAAAATATATTGGGAAATTTAGATTTGGTTTTATC
-//                                                                            |4|
-xaa     TTTTACTGCGCTTTTGAGGATATAAGACGCAAATTGAATCTCGTTCTTAGACCCACCAAATCCGTTGAT
-//                                                                           |5|
-xaa     ATTCCATTAATTACTAACAGTTTATAGACACAAGTTTAGAACTAGGTNAAGAAGGGGCTTCGATAGCTT
-//                                                                           |6|
-xaa     CCGAAGTTGGGCCCCGGCTATTCTTTGATGTTTACGATGCCATCATTTTAGCAGACAATCCTAGGGTTG
-//                                                             -             |7|
-xaa     TCGGGGTTCACACAGMTGTGAAAARACCCTCCTTCAAGGATGTGGTNGATTCTGKGATTCCCAAATCCC
-//                     -        -                             -              |8|
-xaa     CAGGTGCTTCAACACTCAGGCCAACAGCCTGTTTGGGGTACAAGGACATTTGCGGGACACAACACGAAC
-//                                                                           |9|
+MET ça la PAUL
  ```
- 
-Transformation du .loci en .fasta 
+
+*Transformation du .loci en .fasta* 
 
 ```{r}
 #' iPyrad alleles.loci file to fasta alignments conversion
@@ -188,11 +169,12 @@ iPyrad.alleles.loci2fasta <- function(alleles.loci, output.dir){
 iPyrad.alleles.loci2fasta( alleles.loci = "pedicularis.loci", output.dir = "exercice5")
 ```
 
-#*appelez le script dans le terminale*
+#*appelez le script dans le terminal*
 
 ```bash
 Rscript scriptexo5.R
 ```
+
 
 #création de la banque de données 
 
