@@ -85,6 +85,71 @@ grep 0 final.txt
 
 #*exercice 5*
 
+```bash
+
+#!/bin/bash
+
+grep "//" pedicularis.loci | sed 's/-/ /g' | sed 's/*/ /g' | sed 's/\///g' | sed 's/\|/\n/' | tr -s " "  > ZEBIloci.txt
+grep -E -i '(xaa|\/\/)' ./pedicularis.loci >> loci.txt
+sed '1d' ./ZEBIloci.txt > ZEBIloci2.txt
+paste ZEBIloci2.txt loci.txt > ZERMA.loci
+
+paste locus_*.fasta >> final.txt
+paste ZEBIloci.txt final.txt > YOUPI.txt 
+
+```
+On obtenait cette sortie 
+
+```bash
+|0|	xaa     GGGAATCTCCACTCACTGCTTCCCCTAATATCCTCCCTTTACCACATCATGGGGGTTTACAGGAGATCC
+	//                                                                           |0|
+ |1|	xaa     GTGGTGATTTCGATGGTTTTGATGGTGTCGTGGATTGGAATGATGTGCCTGGTGGTGATTTTGACGAGG
+	//                                                                           |1|
+ |2|	xaa     AAGCCTGCTTGTACAGGTTGCTCAACCCGGATCGAGCTGGCGGGGCGTCTTTGTCCGATTCATTGACTG
+	//                                                                           |2|
+ |3|	xaa     CAGCAGCTGGTGTTCGTGTTCGTGTTCGCGCCCTTTCGCCTTTGACGCAGCACAAGAAGAGTCAAAGTC
+	//                                                                           |3|
+ |4|	xaa     CCACCTTTNTTCCGGTGNTTTTTTTTTATCAATTTAAAAATATATTGGGAAATTTAGATTTGGTTTTATC
+	//                                                                            |4|
+ |5|	xaa     TTTTACTGCGCTTTTGAGGATATAAGACGCAAATTGAATCTCGTTCTTAGACCCACCAAATCCGTTGAT
+	//                                                                           |5|
+ |6|	xaa     ATTCCATTAATTACTAACAGTTTATAGACACAAGTTTAGAACTAGGTNAAGAAGGGGCTTCGATAGCTT
+	//                                                                           |6|
+ |7|	xaa     CCGAAGTTGGGCCCCGGCTATTCTTTGATGTTTACGATGCCATCATTTTAGCAGACAATCCTAGGGTTG
+	//                                                             -             |7|
+ |8|	xaa     TCGGGGTTCACACAGMTGTGAAAARACCCTCCTTCAAGGATGTGGTNGATTCTGKGATTCCCAAATCCC
+	//                     -        -                             -              |8|
+ |9|	xaa     CAGGTGCTTCAACACTCAGGCCAACAGCCTGTTTGGGGTACAAGGACATTTGCGGGACACAACACGAAC
+	//                                                                           |9|
+ ```
+ 
+On a ensuite été confronté à un problème que l'ont a résolu en utilisant la bonne vieille touche effacer de notre clavier et on a obtenu cette sortie 
+
+```bash
+xaa     GGGAATCTCCACTCACTGCTTCCCCTAATATCCTCCCTTTACCACATCATGGGGGTTTACAGGAGATCC
+//                                                                           |0|
+xaa     GTGGTGATTTCGATGGTTTTGATGGTGTCGTGGATTGGAATGATGTGCCTGGTGGTGATTTTGACGAGG
+//                                                                           |1|
+xaa     AAGCCTGCTTGTACAGGTTGCTCAACCCGGATCGAGCTGGCGGGGCGTCTTTGTCCGATTCATTGACTG
+//                                                                           |2|
+xaa     CAGCAGCTGGTGTTCGTGTTCGTGTTCGCGCCCTTTCGCCTTTGACGCAGCACAAGAAGAGTCAAAGTC
+//                                                                           |3|
+xaa     CCACCTTTNTTCCGGTGNTTTTTTTTTATCAATTTAAAAATATATTGGGAAATTTAGATTTGGTTTTATC
+//                                                                            |4|
+xaa     TTTTACTGCGCTTTTGAGGATATAAGACGCAAATTGAATCTCGTTCTTAGACCCACCAAATCCGTTGAT
+//                                                                           |5|
+xaa     ATTCCATTAATTACTAACAGTTTATAGACACAAGTTTAGAACTAGGTNAAGAAGGGGCTTCGATAGCTT
+//                                                                           |6|
+xaa     CCGAAGTTGGGCCCCGGCTATTCTTTGATGTTTACGATGCCATCATTTTAGCAGACAATCCTAGGGTTG
+//                                                             -             |7|
+xaa     TCGGGGTTCACACAGMTGTGAAAARACCCTCCTTCAAGGATGTGGTNGATTCTGKGATTCCCAAATCCC
+//                     -        -                             -              |8|
+xaa     CAGGTGCTTCAACACTCAGGCCAACAGCCTGTTTGGGGTACAAGGACATTTGCGGGACACAACACGAAC
+//                                                                           |9|
+ ```
+ 
+Transformation du .loci en .fasta 
+
 ```{r}
 #' iPyrad alleles.loci file to fasta alignments conversion
 #' @description Converts iPyrad alleles.loci file to fasta alignmets.
@@ -127,3 +192,21 @@ iPyrad.alleles.loci2fasta( alleles.loci = "pedicularis.loci", output.dir = "exer
 
 ```bash
 Rscript scriptexo5.R
+```
+
+#création de la banque de données 
+
+téléchargement de ITS_eukaryote_sequences.tar.gz LSU_eukaryote_rRNA.tar.gz SSU_eukaryote_rRNA.tar.gz
+
+création de la banque de données regroupant toutes les séquences ribosomales d'eucaryotes 
+
+```bash
+blastdb_aliastool -dblist "SSU_eukaryote_rRNA LSU_eukaryote_rRNA ITS_eukaryote_sequences" -dbtype nucl -out ribosome_all -title "pedicularis ribosome"
+```
+
+```bash
+
+```
+
+```bash
+```
