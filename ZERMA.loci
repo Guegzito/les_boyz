@@ -1,0 +1,970 @@
+ |0|	xaa     GGGAATCTCCACTCACTGCTTCCCCTAATATCCTCCCTTTACCACATCATGGGGGTTTACAGGAGATCC
+	//                                                                           |0|
+ |1|	xaa     GTGGTGATTTCGATGGTTTTGATGGTGTCGTGGATTGGAATGATGTGCCTGGTGGTGATTTTGACGAGG
+	//                                                                           |1|
+ |2|	xaa     AAGCCTGCTTGTACAGGTTGCTCAACCCGGATCGAGCTGGCGGGGCGTCTTTGTCCGATTCATTGACTG
+	//                                                                           |2|
+ |3|	xaa     CAGCAGCTGGTGTTCGTGTTCGTGTTCGCGCCCTTTCGCCTTTGACGCAGCACAAGAAGAGTCAAAGTC
+	//                                                                           |3|
+ |4|	xaa     CCACCTTTNTTCCGGTGNTTTTTTTTTATCAATTTAAAAATATATTGGGAAATTTAGATTTGGTTTTATC
+	//                                                                            |4|
+ |5|	xaa     TTTTACTGCGCTTTTGAGGATATAAGACGCAAATTGAATCTCGTTCTTAGACCCACCAAATCCGTTGAT
+	//                                                                           |5|
+ |6|	xaa     ATTCCATTAATTACTAACAGTTTATAGACACAAGTTTAGAACTAGGTNAAGAAGGGGCTTCGATAGCTT
+	//                                                                           |6|
+ |7|	xaa     CCGAAGTTGGGCCCCGGCTATTCTTTGATGTTTACGATGCCATCATTTTAGCAGACAATCCTAGGGTTG
+	//                                                             -             |7|
+ |8|	xaa     TCGGGGTTCACACAGMTGTGAAAARACCCTCCTTCAAGGATGTGGTNGATTCTGKGATTCCCAAATCCC
+	//                     -        -                             -              |8|
+ |9|	xaa     CAGGTGCTTCAACACTCAGGCCAACAGCCTGTTTGGGGTACAAGGACATTTGCGGGACACAACACGAAC
+	//                                                                           |9|
+ |10|	xaa     TTAATTAACATAGATATAATTAATAACCAAATTCTTTNTCTATAAGGCACAATTAACTAAATAAATAAA
+	//                                                                           |10|
+ |11|	xaa     AAAAAGAAGATTTGTTGCAATGTAGCTCCATAAGAACCATAAATAGAAACACGTGAAATATTAGCAGAA
+	//                                                                           |11|
+ |12|	xaa     CCACTGCTCCTCGCTATCCGCATACGCGTCAAACGCTTTCGAGCAGTTGCCGAGCCACGGCCCGCTCAC
+	//                                                                           |12|
+ |13|	xaa     TAGAGCAGACCAATACGGAAGTACACAACTATTCCAGGATTTTTGCCGACATCCAGATGTAGCTCTGCC
+	//                                                                           |13|
+ |14|	xaa     CANCTTGATTATGGCTTGACTCAGTGTCAGGCATTGGTTTTGGCACCCACTAGGGAACTGGCTCAGCNG
+	//                                                                      -  - |14|
+ |15|	xaa     CCATTATGTGGCATAGGGGTTACATCCCGGACAAAAGTTAATAGTATCCCACTCCTACGAATAGCTCGT
+	//                                                                           |15|
+ |16|	xaa     GTNTTCGAAGAGGAGCTGGCGCTGGCGCTACAATGGATCAGAATGAAAGATATAATGAAGGATATGTTG
+	//        -                                                                  |16|
+ |17|	xaa     TGAAATACACAANNATCTCTGCCAAAACTTCACATGAACAAAAAACAAATAAACAATCCTTCTCCTCTA
+	//                  -                                                        |17|
+ |18|	xaa     GCTTTGACATTAGGAGGAGCCCTATTTCTATAGCCGCAGCAATCATCTTTTTGATATCCCAGCTCTCCG
+	//                                                                           |18|
+ |19|	xaa     ATCTCGTNTGCGACAGCTGAACGCCGTCGTGTGATATGTGGTTCCGGTTCATTTCAGACTACTCAGCGT
+	//                                                                           |19|
+ |20|	xaa     AACCGGGTTGGGGAGCCGGCCCGCGCTCTTGTGTCGGCGTTCAAGACGATTTCCAACATGGCCGAGAGG
+	//                                                                           |20|
+ |21|	xaa     TATCTAGTAGGTTTTGTTTAGTTGTTTGTTTGGTTTTGTTTAGTTTTTCTAAAACAAGCACAAGCTGTT
+	//                                                                           |21|
+ |22|	xaa     AATGGAAGGTTGCTTGTTGCTCGGTTTGTTGAGTCGCATGNGAATGGAAGTGAGAAAGATTGTACTGAG
+	//                                                                           |22|
+ |23|	xaa     CAGCAAATGCTATTCGTACAATCGTTGATCAAGGTATGCAACGAGCAGAAGTCATGATAAAGGGTCCCG
+	//                                                                           |23|
+ |24|	xaa     CACTTTAACCGYGTGTTATGAWCGTAGGCCTTTCTGAAGTAATAATTAGAAACTTAAAGCGAAGGGATT
+	//                 -  -      -                                               |24|
+ |25|	xaa     ACCTCCGAAAAAAAGACGTGTGTAGAAATGAACAATGAAGAAATTTCAAAAAAAAAACAAGATAAATAA
+	//                                                                           |25|
+ |26|	xaa     TCCCTTTCTTGGCCGTCTTGTTGGTAGTTGCAAAGAATGGACCTTGTTTCGGTCATATGNGGA
+	//              -                                              -       |26|
+ |27|	xaa     AATGCCACATAGAAACAAGTAGTTGTATTAGACAAATGAAAAAGGAATTTGAGTACCAAAGAACTAATC
+	//                                                                           |27|
+ |28|	xaa     ATTTTTCTTGGCGGAGAAGCTCATTATTTCAGGACTTGAATAACCCTCTTCTTGTCGGTGAGACTGACT
+	//                                                                           |28|
+ |29|	xaa     GAAGGAGCATTAGATCTGTGCGCAGATCCTTCCACCTAGACTGCAAAGATCAAGTATCAGCATATTNTT
+	//                                                                           |29|
+ |30|	xaa     ACACAACGACCAAGCGTGGACCCNTCTCCCCACCCGAATCGAGACGTGCCACGANGTCGTCTGCCACGA
+	//                             -                              -              |30|
+ |31|	xaa     TGGGGTTCGCGACCACGATTGNCGAGGCAGCGATTCGNGCTCAGAAGCAGGAAGCTGAGTTTTGTTTGG
+	//                                                                           |31|
+ |32|	xaa     CGAGTTGTTTTTGTACNCTGGAGTCGGAATGGAACGAAAAGAGGGGGGAAATGGTCCATTGCCTGA
+	//                      -                                                 |32|
+ |33|	xaa     TTCTTGTTGACAACTCCGATCCTATAGAAGAAGCTGGTATTGGAGGATTTCTCGTCTTTCCTAAAGCAA
+	//                                                                           |33|
+ |34|	xaa     TCAGCCGCTTCCCCTGTAGTCGTCAGCTCGTTCTTGACAAATCCGATCGGGTGTTCATAATCTGGAGTA
+	//                                                                           |34|
+ |35|	xaa     ATCTCCCAAACTGAACATACTAAAARGTGAATCTGTAANAAATGTCGGTGCGCCTCTCGTTGCTAGATT
+	//                               -                                           |35|
+ |36|	xaa     AAGCAGTCACTGTATCCAAAGAATTCCAGGTAGTTTCTTGCCATCAATGTTGCGTTGGGAAGTTCTTTT
+	//                                                                           |36|
+ |37|	xaa     CGAAGAGGACTCGAGCAGCAAGACGGATGTGAGGAACCACGAGTTGGGGGNTGGTGNTGAAGGTCTGGG
+	//                                                                           |37|
+ |38|	xaa     ATAATAATGATAATGTGGATCACTTCAATATTTGCAAAAAAGAATTGCTTGACAAGGCCGATCTTTCCT
+	//                                                                           |38|
+ |39|	xaa     CTGAAGGGGTGCCAATTGTGCCGGTTTATCCCGGAGTTATATACGGCCCGGGCAAAGTTACAAGTGGAA
+	//                                                                           |39|
+ |40|	xaa     GGTATGTGAGACCCCACAAGTTGATTAGTACTGAGCCAGGAGATCTTTCTTTGGATCGTTACAA
+	//                                                                      |40|
+ |41|	xaa     TTAAGACAGTAGTGCCGTTTTAGCTACATTCGAGCTCCTCCCCGAGGATCTCTCATTCCCTTGCTTAGC
+	//                                                                           |41|
+ |42|	xaa     CGCCTGTGTGGCCGTGATTCTCTGCTTGGGATCGTATTTGAGTAGCTTGGTGATCAGATCGACGMAAAG
+	//                                                                      -    |42|
+ |43|	xaa     CTTNAACAACCAGCCTTAATCTCAGAAAAGCCAAGTTYTGGGACAAAATGTATAGCGGCTCTGCCAGTA
+	//         -                                 -                               |43|
+ |44|	xaa     TTACGAATAATCCAGCCAAAGTAATAGGAATTAGGCCTAACACGATTCCAAAYAAAAAAACTTCAATCA
+	//                                                          -                |44|
+ |45|	xaa     TAACATCCTAAATAATAAAAGATTGAACTACTATGTTTCAAGTATAGTCAGGGACGTTAATAATANACA
+	//                                                                           |45|
+ |46|	xaa     AGGGATGTGTGTTTGATTTTATTTCTGGTCTTAAAAAGTTATGATGATGAAATATGAAATTCATGTGCA
+	//                                                                           |46|
+ |47|	xaa     AAAAACTGTTTTTTCCCTCGTCTCAAGTCNTTGTGTCTATGGGANGTGCAACTGCCTACAGGACCGTTA
+	//                                                                           |47|
+ |48|	xaa     GCTAGGACAGCAGTTTGGAGCATTACAAGCAAAATAAGATGAATTCAAACCAATCCCATTCATCACGTA
+	//                                                                           |48|
+ |49|	xaa     ACCGACTACGATTCCGACTACTTTTCCGACGATGAAGAATCCTCCGAAGGTGGCCTCTTTGGTGAGTTC
+	//                                                                           |49|
+ |50|	xaa     CATCAACAACTACTGGTGTTCCTGTTGTTGCAGATCTGAGAACAAACGCAGATATTGGTANAAGTTCTG
+	//                                                                           |50|
+ |51|	xaa     GCAAAGAACCACAAGAAAACCAACAAAATAGTAACTAAATATTTGTCCTCACTAACTACAATAAAATTT
+	//                                                                           |51|
+ |52|	xaa     ACATTACAATACAAAAATAAAATTACAGATACTAATCTCAGATCCAGATAATTAATAAAAACTCGAAAG
+	//                                                                           |52|
+ |53|	xaa     CAGCATTTTTTTATCAGTCAATTAACGAGCAAGATAGAAAATCTAGCACCTGCTGTCGTTTAGCAAGCT
+	//                                                                           |53|
+ |54|	xaa     CTGCTGCATATGGAGCTTACCCCATGTACGGAACACACCAACAACAAGTAAGCTGAGGGCCCAGCCCAG
+	//                                                                           |54|
+ |55|	xaa     TGATTATTATCACGCTCAATTAGCAGCCCGGTTTAGGAGTCAACCGAGCATCATTCTGAAGCTCAACGA
+	//                                                                           |55|
+ |56|	xaa     ACGACTTAAATACGCGACGGGGTATTGTAAGCGGCAGAGTGGCCTTGCTGCCACGATCCGCTGAGATTC
+	//                                                                           |56|
+ |57|	xaa     CTAAGCAAGGGAATGAGAGATCCTCGGGGAGGAGCTCGAATGTAGCTAAAACGGCACTACTGTCTTAAC
+	//                                                                           |57|
+ |58|	xaa     TTTTCTCATTGCCCCGAATGACCTCGTCCGTTCCTCTTCTACTTTTGGTTCTTCGTCCTTTGGCATCAT
+	//                                                                           |58|
+ |59|	xaa     GAACTGTTTGGCCATCTCAGGTGACGACGCCACGATTACCGGGAATTTGCCGAACTTGAGGAGCATTAT
+	//                                                                           |59|
+ |60|	xaa     AGTAGAGGCAACACATGGGATCTGCGAGGCCGGTGAACTAAACTTGCAATTTCGATTCGTCACACGGGT
+	//                                                                           |60|
+ |61|	xaa     CTACGACTCCAACAACAATCCCCACTGTCATCGTCCCCCTGCACTTTCTACGACCACGAATGTAGTTGC
+	//                                                                           |61|
+ |62|	xaa     AAGGCGACTGTTGTTCGTTGCCAGGTGGCGACGTGCATGATGATGGCCGTTTTACCGCACAAGACGAGC
+	//                                                                           |62|
+ |63|	xaa     ATATGGGACACAATTTGGGTGACGAGCTTGACAAGACTCCCAAGCCTAGGGCTGTGGTAGTCTTTGTGG
+	//                                                                           |63|
+ |64|	xaa     CTTTTGTATATTAGCTGGTACTTGAGCGAGTACATTGGGTTTGGTGGGTGGAGAAAGGCTAATTTGACA
+	//                                                                           |64|
+ |65|	xaa     TTTTGTGTCCTTGTGCACGCCCCTCTTTCCGTATACCTTAAGCTGAAAAATCAAACAAACAAACAAACA
+	//                                                                           |65|
+ |66|	xaa     CGGCCTCCACCACCCGCTCCCGCAAGTCCTGGCTGTAGGGTCGGCCCATGCTTCGCTCCTTCTCAAGAG
+	//                                                                           |66|
+ |67|	xaa     CCGATATTACCCTCACAGCTGTCATGCTCTTCACCATAGTCATCTTTTGGGCCGGGCGCCCGTTTTACC
+	//                                                                           |67|
+ |68|	xaa     ACTGAGCATCTATGCCAATCTGAAAATCAAATCATTCGTGTTAATTATCTGCGAGATGATATTATTCAA
+	//                                                                           |68|
+ |69|	xaa     GCGGGAAAGTTAATAATTACATAATTGTGATTAGCTAAAGTTTTCATCAACCAATAAAATTGTTTGTAG
+	//                                                                           |69|
+ |70|	xaa     GATTCTTATCCACTTATTTTTGCTTACGAAAATTTGTTGGAAGAGAAAAAAGAGGTCCAAAAACAACTT
+	//                                                                           |70|
+ |71|	xaa     CATACGACTGTAGTGGGACCAATCCGCGCTAGTACCAAAAAACCATCGCTCACGGATGTCAGTGAACAC
+	//                                                                           |71|
+ |72|	xaa     GAGCGTGATCGAAATTAGAATTGCTATTTGATGCTGTTGGGTTATGCTCTGCACATTGATGTTAAGATT
+	//                                                                           |72|
+ |73|	xaa     TATCTTACCACTGTAAGTATTTATTTTCTGTCTGTGATGACTGGTGCTATTTTCTGACACCTCTTGTAT
+	//                                                                           |73|
+ |74|	xaa     CCTTGCCCACAGCTTCTTGGACCGATTTCACCTCTTCGTAGCTCATCCCAAGATTAGAACAGAAACGCC
+	//                                                                           |74|
+ |75|	xaa     TTTTTTCACCCTCCAGAATTTTCAATCCAGGACAACCCAATCAAACTAGGGCTTCTCTGAATGATGCCC
+	//                                                                           |75|
+ |76|	xaa     GAGGTTGGTATCACCACCAATGGGGGCCAGTCCACCGCGGTTTGCTCCAGCGCCCAAGTTCAATTCGTG
+	//                                                                           |76|
+ |77|	xaa     ATTTTGATTCCATGCTCGATATGGACATAGTTAGCGCTGAAATCCTTCAAGCAGGGAAATTTGGTCGAG
+	//                                                                           |77|
+ |78|	xaa     AATCAACCCGATCAATGGAATCAAACATCTCAGCAGCCTCTCTAAGCATTGTTCGTGACCCTTCGGGAT
+	//                                                                           |78|
+ |79|	xaa     TTTGGCCAGCGAGACGAGCAACAGGCAAGCTGCATGCTGTGGGCCAAGAAGGAGCTGGAAGTTCAGGCC
+	//                                                                           |79|
+ |80|	xaa     GGGTCACAATAAAAGTGAATGTTACATCTTTTGGAAAGTTCAAGATGGAACATTCTTTGTCCTTACATT
+	//                                                                           |80|
+ |81|	xaa     CTCTGTTTTAAAAGAGGCTACAGAATCGTTGTGAAGTTTGAGCGAAGCAAATAAGTATTTTTGATGCTC
+	//                                                                           |81|
+ |82|	xaa     ATGTCCAGATTTCTCCTTGGAGAACTTCTCATAAACTTCTTGGAACTTGACAGTCTCACTCTTCAGTAA
+	//                                                                           |82|
+ |83|	xaa     AATAATTGAGTCTCACTATGCTTATCTTTTACATCGAGGAACAATGGCTTTTCGAATGTACCTGAGTAA
+	//                                                                           |83|
+ |84|	xaa     TATTTGCTTCGAAACAACTACAACAGAAGATAGTACCATATTATTAAAAACTGTCTCTGCTGCCTGTGG
+	//                                                                           |84|
+ |85|	xaa     CCTTTCATGGTATGATGGACCCAAGGACCATATGTCTCGTCAGTGAGGGATTGTTTTTCAGTTGGTGGA
+	//                                                                           |85|
+ |86|	xaa     AAGACCGACCCCATTTCTGAATCAGGACCCCACCTCTCTGAAAAAATTAAAAAATAATCAATTTTGAAA
+	//                                                                           |86|
+ |87|	xaa     GATATTTCATTTAAGAATTAAAAAATATTTTTAATAAACATGGACTCGAGACACTCCAAAACAAGATAA
+	//                                                                           |87|
+ |88|	xaa     TGGACGATAGACCCCCCGACTCTGAAGACTCGCTCTCGTCTGCTGAATTTATAGTCAACGAACTTATGT
+	//                                                                           |88|
+ |89|	xaa     CAATGGGGAACGCGACCGGATAATTATGCCTTGCAGTGATCGAGCCGTGAAAACCTTCATCTTCAAGTT
+	//                                                                           |89|
+ |90|	xaa     AGGTCATGCAAATAAATAGGCCCCTTCTCTTTTGGATGAATGGGGTGCTTTAGAAGGCGCTTTCCGATC
+	//                                                                           |90|
+ |91|	xaa     ATTGAGCTATCTGGAAAACGCAAAGGAGGTGTGTAACTGGTGGAGTTTGCTGAAGAAATGAGAGAGATA
+	//                                                                           |91|
+ |92|	xaa     CAGCATCTTGAGCACTCATCATCGGTCGGCGAGTGCTGCTGGGTTGAGTGTGATCGGCCGACTGGCTCA
+	//                                                                           |92|
+ |93|	xaa     AGCTTTCACGCATCTGTATATGCTGGGAATGCTGGACTCTGTGGAATTCCACTCCCTCTATGCCCGGGA
+	//                                                                           |93|
+ |94|	xaa     AAGAAAGCCTCTTGAACTGCCTGCCACAATCATGGTTAAATTACTCTGTAATGTATAGGGTCCCTGGAG
+	//                                                                           |94|
+ |95|	xaa     CTTGTATCATTGCCTCAATCTCTATCTTTCCGAGAGGCTTCTCCATGGGGACCACAGAGCGTTTATAAC
+	//                                                                           |95|
+ |96|	xaa     CATGTTCTTCGGGAGCTACCTTCATCTCCTGTCCCTGCATCTTGCTGCACTGCATTGTTGGAAGCTTAC
+	//                                                                           |96|
+ |97|	xaa     CATCACGTACATGGGATCCGACACTATGAGGTCCTCTTCGAATATCGTAATGTAAAGCCTGCATCAATT
+	//                                                                           |97|
+ |98|	xaa     TGATTTTATGGATTTGCCCTTGCACCACTCGAAATTGCTTTACTCTTTCTTCTTTCCTTAACTGCATCT
+	//                                                                           |98|
+ |99|	xaa     TTGTTTTGTCCTTTGTGGGCATAGCTTCCCAGCAAGAAAGGCGTAAACATGTGTGGAAGTGAATTGCGC
+	//                                                                    -      |99|
+ |100|	xaa     GATCCCGTGGATTTTCTTGGGTAGCATGAGTTCCTCCCTACTCCGGTTAAGAGGTTCGGCCGCCGCCGG
+	//                                                                           |100|
+ |101|	xaa     AATCACTCTCCCCAGCAGCTGATATGTGAGTCATAAAAATAGCCTTGGTTGATAAGGGTACCAATTGGC
+	//                                                                           |101|
+ |102|	xaa     CATTCGACACAGAGTCAGGGGATAAGCTACGGGCGGGGAGGAATTTTCTTCCTGATCGGACGGTGACTT
+	//                                                                           |102|
+ |103|	xaa     ATTATCAGAACTTTGCCATATCGCATGATGCTGACTCGATCTTGAGTAAGGCTCATGATGATCAAGTGA
+	//                                                                           |103|
+ |104|	xaa     CTCTAGCGGTCGGCTCGGTTCTTTCAAATTGTTTCTCATTATTGAGAAAAGGTAACAAAGATAAAATAC
+	//                                                                           |104|
+ |105|	xaa     CTCAATAAGCAACAACTTCATCTAGATCAATGATCTTGGTTAATTTCTTAACATAAAATAAGTCCTGTA
+	//                                                                           |105|
+ |106|	xaa     CTCTGGGAGAGAGTTCCATAATTCCATTTACAACTAGATAGAAGGGAGAATGCCGCGATAAAAAAACCT
+	//                                                                           |106|
+ |107|	xaa     AAGACAGTCCGGAGGAACTTATCAACGGGAACTTGTTGACGGTAAAATGAGCAGCCATTATTCTCCACA
+	//                                                                           |107|
+ |108|	xaa     CAGGAGAAAATTGTTTTTGAATATGATGAATTCGTCAAGTCTGTTCTGTTTCAAGTATTCCTCTAACTT
+	//                                                                           |108|
+ |109|	xaa     ATTCAATAGCTGTAAGGGCGGTAATGAGACCAAGGCACTTTCGCTTACGCTTTCACCTGACGTAGGGCC
+	//                                                                           |109|
+ |110|	xaa     ATCGGYTGNTGAAAGCTCAAAANTTTTTATTTTATTTCTCACAAGCTTTGAAATTCCCTACTTTTCTCG
+	//           -                                                               |110|
+ |111|	xaa     AAAAAAANAAATATCCACATCAACACACCATAAGAAACCTTGTTGCAGCATTTTTTACGCAATCAAACG
+	//                                                                           |111|
+ |112|	xaa     AAGATTAAAGAGAAAGCTTAGCTNAAAATAATCKTTCTTCCTGATCTGAACTAAAATTTCATGAGTGAA
+	//                             -         -                                   |112|
+ |113|	xaa     CAGCAGCAATATCAATTACTTGGGCCTGTGGAAGAAGATTTGATGATGATGCCTAATCACTGTTATCCG
+	//                                                                           |113|
+ |114|	xaa     GAATGCGCGAAGGTACAAGAAAAATCAATTCAGATCCATTTCCTCAAACATCGAAGCTGTTCAACA
+	//                                                                        |114|
+ |115|	xaa     CATCTGCGGAAATTCCAGTTCTCATGGACATTGCAACACCTATGGCGCGCAGAAAATGCAGGTGCATCC
+	//                                                                           |115|
+ |116|	xaa     TTATATATTGCAAAAACCCACTTGAGAAAACCCAGGAAAAAAAAAGGAAAAGCACCTGGTCAGAGCTGT
+	//                                                                           |116|
+ |117|	xaa     CATACGCATTGTTGGGTCGATTAGAAGGAATACTTCCAGCTTTGGAAGCAGCTCATGCATTAGCATACC
+	//                                                                           |117|
+ |118|	xaa     CTGCATGAGAAACCCCCAATCGCGCCTTCGCGAGTAGCTCTAGGGCCATGTCATAGATCTCAAAATCAC
+	//                                                                           |118|
+ |119|	xaa     ATTTCACCCTATCTACACCCGGAGCCACTCCCCTAGCGGTCCTGCCACCACGCCGCAGAACGGGAGCTC
+	//                                                                           |119|
+ |120|	xaa     CACATGAATGTCCAGAATCAGCAAGATACCCAACATCTATCGCAGGTGCCGCATTGAATACGAAAAGCA
+	//                                                                           |120|
+ |121|	xaa     AGGTTGTTGGTGGAGAGGTCGAGGCGGAGGAAGCGTTGGAGGGAGGAGAATTGCNGTGGTACATCGCC
+	//                                                                          |121|
+ |122|	xaa     CGGATTACTGAGGAGCAAAACAAGGTTGTGACAACAGACYGGATGTGGGCAAGGCTTCTTTCTTCGACC
+	//                                             -                             |122|
+ |123|	xaa     GCACTCGACAACAAGCAAGAGAAAGGGCGGGTCGAGAAAAAGTAGATAGGAATACGGTCCACTGTCCTG
+	//                                                                           |123|
+ |124|	xaa     CGGTGGAGGTGATGGGGAAGGAGGTGACGACGGTAAGAGAGAGGAGGTGAGAGWGAAAGRGGATCGATC
+	//                                                           -     -         |124|
+ |125|	xaa     CTTCATACCTAAGAAACATGACTANGATGATGAGAATCGATATAAGAAGCCCAGATATATTAACACACA
+	//                                                                           |125|
+ |126|	xaa     AAATGCACCATTGACATTTGACCCCAAACAGCAATTTCCCAGTTAACCACTCGATTCCATGTTTTCGTG
+	//                                                                           |126|
+ |127|	xaa     GGCCCAATCATAGTCAAAAGAAGAGTTTGATCCTGGCTCAGAAGGAACGCTAGCTATATGCTTAACACA
+	//                                                                           |127|
+ |128|	xaa     CATTGTCCCGGACGAGTCTTGGTCTCCAATTGGGCCCAATGTCAAGACCTTTCTGGGCCGTCCATGGAA
+	//                                    -                                      |128|
+ |129|	xaa     CAGCTTCTGCTGNTGTAACTGCTGCTGATGCGCGNTCAAAGTTTGCGGACCAGAATTAGGTCTTTGGCA
+	//                  -                     -                                  |129|
+ |130|	xaa     TTATGTTCCGGCTGATGATAGCCGCCGCCCTCCTCCTGTTTACAGCCTCTTATCCCCAAGCCGCCCACG
+	//                                                                           |130|
+ |131|	xaa     CCTTTTGCTTCCACATCTCATGCTCACANGCTAAGGCAATGGTTAGGGCAGAATTGGCTTTGAAAAGTT
+	//                                                                -          |131|
+ |132|	xaa     TGGTGNTTCATGTCGGGAGTGGGCCTAATCACGGGCNTTATGTCAGCCTCGTGNAAAGTCATAATCACT
+	//                                                                           |132|
+ |133|	xaa     CCAACACTGCAAACGAGTGGTTCGTCCCAACAAACATCGCCAGACCATCCAATGAATTATTACAACTGC
+	//                                                                           |133|
+ |134|	xaa     GGTTTGTGCTCAGAATTACTGATAGAGCGCATACAAAAAGCACAACAGCTTTCGACGACGACATCGCTT
+	//                                                                           |134|
+ |135|	xaa     AACAGGAAGATAAACAGCATTGAATGGTCTGCAAAGATTATCACACATAAAACNAAAATTATACAAAAT
+	//                                                                           |135|
+ |136|	xaa     TACCCCCCGTGAATACTCCGCCGGTATGAAAAGTTCTTAATGTTAATTGAGTGCCCGGTTCTCCAATTG
+	//                                                                           |136|
+ |137|	xaa     GCCTTAGAACTAGAAATAAATAAGCTTATTCTTTGTTCATTTGAATCAGAATTCCAACCCGAACTCAAA
+	//                                                                           |137|
+ |138|	xaa     AAAGAGTGAATCGAAGAACGAAAAAAATAGACAAATGAAAAGAAGGAAAAAAAAWTAGTCAATGAT
+	//                                                            -           |138|
+ |139|	xaa     CTATTTTTCCAGAGATGCTCCGTGCCAAGAGAATGAAAAGCTTTCANAGGAGACCATCCGTGTGAGCCA
+	//                                                                           |139|
+ |140|	xaa     TTCAAACTCGAGTCTAGCGACAAGTAAAATAAGTTCTAATGGCTATATATATGGATAAAAGAGAGAGAG
+	//                                                                           |140|
+ |141|	xaa     GACGATCCTTTCTACTGTTTTTCGATATTTCGTGNTCCGATATTGCTTAATCCAATTCTTGAAACCCTT
+	//                                                                           |141|
+ |142|	xaa     GTGTGAGCCGGGATCAGAACAGGCATGATCAACAGCAAGTCTACCATCTGAATTACATTTTTCAAAGGT
+	//                                                                           |142|
+ |143|	xaa     CCCGCCACTCACCGGTTTCCATNCGNTCGAGAAANGAGACCTCTACGATGCCGATCATGGCA
+	//                            -  -                                    |143|
+ |144|	xaa     CATAATATATAAAATCAGAAAAAAAANAATAATAATTCAAAAAACGCAAATATAAATGTAGCCTAATCAA
+	//                                                                            |144|
+ |145|	xaa     AAGCCCTACTTGAATTATTGTNCTCTTTAACTACCTTGATCTCGCTGGATAAATCATCNNCTGATAACT
+	//                                                                --         |145|
+ |146|	xaa     GATATAGTTTGAGCCTAACTTGTCCAGAGAATTTGCTGTTAGGCAATCTTTGATTTGCTAAMRGATAAT
+	//                                                                   --      |146|
+ |147|	xaa     CCTACAGCTAGCTTCNGCCACCGTCACTCACCCNCAGTCGCCGCTCACAGGCGACCGTTTTCATTTGCC
+	//                                                                           |147|
+ |148|	xaa     GGAGGAGACAAACACATTCTTTTTCCTTTTCCTTCGGTCAGGCGGGCTGACCCGCACCCGCCGCGG
+	//                                                                        |148|
+ |149|	xaa     CAGCAGGGACACCACCGNCATCTGGGCCTATCTGTTCTTTCTCTTTGTCGATAAGTCCTCCACTCGAGC
+	//                                                                           |149|
+ |150|	xaa     GACTCTCAAATCTCAATCNTATTTCTCANTGTCAGTCCTTCAACATTGATGCCTTCTGCTGACCTTGTG
+	//                                                                           |150|
+ |151|	xaa     GTTCTCAATCTTTTCGAGCCCTTCAACATCATCAATCATTTGAGCATTCATCATCTTTCAAACCCATAC
+	//                                                                           |151|
+ |152|	xaa     CATCTTGTGTTATTGGTAGTCTATCATATTCATGAATATCACCCTCACACTGGGCCTTACCCAGGACCT
+	//                                                                           |152|
+ |153|	xaa     CCGGTGGATGAATCTGGAAGCACAACCATKGTTGTCTGGTTTGAAGAACNAGAAAGTGAAGGATG
+	//                                   -                   -               |153|
+ |154|	xaa     GAGAGCCATTGGTGATAGAGGAGGTGNAGCTCAGCCCTCCTCAGCCCATGGAGNTCCGCATTAAAGNCG
+	//                                                                           |154|
+ |155|	xaa     CTTCCAAGGNGGNAAATGAAAATCCCGAGGATTACTGGTCGTAGGATAACTACAGAGCAATCAAACAAT
+	//                  -                                                        |155|
+ |156|	xaa     TTAAATTGATCAAAGACTATTTCANTTTTGAAAAACAGATAAGGCTATCAGACGATCACCCCGATGAAT
+	//                                                                           |156|
+ |157|	xaa     CATTGCTTCTATGATCTTAGGAGCACTGGCCGCCATGGCCCAAACGAAAGTCAAAAGACTTCTAGCTCA
+	//                                                                           |157|
+ |158|	xaa     TAAGTAGATCGAGAGGTCGTTCCGCCCCTTGTCCCCTAAGTTGGGTAATATGTTCTCGACCATTCTTGC
+	//                                                                           |158|
+ |159|	xaa     TGTTGCTTCCTCATCCTCATCTTCTCTACGCAGTGGAGGTCGAACTTAAGAGGGCCCCACCATACGGGT
+	//                                                                           |159|
+ |160|	xaa     AGCAAGCGAAGAAAACGTAAGGGCGCGCGTTAGCACTCCTGCAAGAAAACGGCCTAGCTAACGCGCCCC
+	//                                                                           |160|
+ |161|	xaa     AAAAAGNNACAACAATATGTAAAACAACCAGANTAGAAGAAATGCTTTTTTTATTTCTCCAAACTGAAC
+	//                                      -                                    |161|
+ |162|	xaa     TGGACTTGGGCCCGGTCCGCCGCTGAGGACGCTTCTCCAGACTACAATTCGGACGGCGTGGCCGCCCGA
+	//                                                               -           |162|
+ |163|	xaa     ATGCTTTCGGGCCTGCCCGCACAAGCGGGGTCCTGATCTTTCAGAACCTCTCTTGCTGCCTGGCGGGAT
+	//                                                                           |163|
+ |164|	xaa     CGGTTTNGGCCCTAAGCGGGCTGACATAAGCTGGAGCTTTGGGCTGTGGCGAACCATTCTCCGTGAGGC
+	//                                                                           |164|
+ |165|	xaa     GCTGATTTACCAGCTTACGAAATTGCTTACTTATTAGAAATAGCTTTCCTCAGGCTTTGTCTTCATTCT
+	//                                                                           |165|
+ |166|	xaa     CACGGTAAAATAGCAAAATCAAAAAACCAAAACACATTAAGCTTTGGATGAGTGTTCTTGGTAATAGTT
+	//                                                                           |166|
+ |167|	xaa     TAATTCTTTGGAAAAGCCCGGTTCTCTTTGTCTTCGAGCTTTCATTCCTCAATCCACTGATTCGTTCCT
+	//                                                                           |167|
+ |168|	xaa     CTGGTAGCGCGTGCACACAGTTGCTTTGGATGAAYCAAATGATAGAGGACTAYGGT
+	//                                        -                 -   |168|
+ |169|	xaa     TTCGTAAATCCCTGCTTTTGCTTCATCATCATCCGCAAACTCCTCGGCCCTTTCATACCTGATGC
+	//                                                                       |169|
+ |170|	xaa     AGAAGTGGAAGAAGTTTCGGAGGGTTCGGGTCTTCCCATAGAATTAATGGTGGAGAAGGAAATAACAAG
+	//                                                                           |170|
+ |171|	xaa     AGTCAAGATCAACATTTTACTGATTCCCACCACGGGTGCTACTCTASTGTGTYGATTGCTGGGGGCAGC
+	//                                                    -     -                |171|
+ |172|	xaa     CTGCTCTGTTATTTCTNCAATCCGAGAGCGAAAATATGTCCAAAGACGTCGCGAATCTGGAGTGGAGGA
+	//                                                                           |172|
+ |173|	xaa     TTCCGGCGCCAGTGGCCCGGTTTTCCACAATGGTGACAAACGTCC
+	//                                                   |173|
+ |174|	xaa     TTCTTGATGGGTGCGATCATACCAGCACTAATGCACCGGATCCCATCAGAACTCCGAAGTTAAGCGTGC
+	//                                                                           |174|
+ |175|	xaa     TGNGTTATCCTCTCACTCTCGTTTCTGGTACAATACCAGGCCAATTTAAAGCTGGTTAGCAAACGGCGA
+	//                                                                           |175|
+ |176|	xaa     ATTTGCTGTTGTCTGGTATAAAATTCTTTGGTCTGGAGTCAAAATTAAAGTCGAAAGGCGTGTTCTTGC
+	//                                                                           |176|
+ |177|	xaa     GATCAGACCAAGTGACCAACCAATAATTTTGAGGTGCAAAATGGAAGTTGTTATAAGTTTAAATTGTAA
+	//                                                                           |177|
+ |178|	xaa     GGGGTGTGCTCGACTTTTGGTGGGGTTTCACTCGAGAATTGGAGCCGGAAACTACAATGATGTGCAGCA
+	//                                                                           |178|
+ |179|	xaa     TGGTAGAACCTGGTGAACCGGGCGTACTACTTTCCAACCTTCTCTGAACTTTGATTCTCTTAATAAATT
+	//                                                                           |179|
+ |180|	xaa     GGTTTTGCACATCCCCAATCACAGCCTCGCTCGCCTTCGTGGCCGTNCGAAMGCCTCTCGGAYATGATC
+	//                                                         -          -     -|180|
+ |181|	xaa     AAGAAGGGAAATAGTCAACATATAAGCTTTTCTCACACAAAATGAAAAAATCNCACAAAAAATAAACA
+	//                                                          -               |181|
+ |182|	xaa     CTTTGATTTGTTGTCACCTGCATTTAATAAAGACGGTTTGCTTGATCTAAACTTTTTTGATTAAGTGTT
+	//                                                                           |182|
+ |183|	xaa     AAGAACAAACAAACAACTAAACAAAACCTACTAGACAAAATAATTAGATACTCCAGAAGAACAAACCAA
+	//                                                                           |183|
+ |184|	xaa     TTCTCTAACACTGATCCCAGCCATCTTCATTTTATTATGGCTGCATCTATTCTGCGGGCTGAGACATTT
+	//                                                                           |184|
+ |185|	xaa     AGGCGTTGGGCACACGAATAGGGTTTGTCCTAGTCAGCGCCGCCTTGTCGACGGCGGGGACAGGGCTTG
+	//                                                                           |185|
+ |186|	xaa     ATTGAAAGAGTAATCCGAAGAGCAGGACGCTAGTAGTCTTCCAGTAAACTTTACGGAAAGAAGTTAGAA
+	//                                                                           |186|
+ |187|	xaa     TGGTAGAACCTGGTATGTCCTGAATGCCCTACCAGGGGAATCCCGGTGAACCGGGCGTACCCTTCCTAT
+	//                                                                           |187|
+ |188|	xaa     ATACCACACCTGGTGGTGTATGCCGGTACCGAGGAGGAGAAACAACGGTTTTTCTTTGTGTTGCGCTTT
+	//                                                                           |188|
+ |189|	xaa     GCTCACCGCGACCTCGGACGCGGACGTCCCCCTCACGTTGACGTACCTCACGCCNTTGATCTTGATGTC
+	//                                                                           |189|
+ |190|	xaa     CGAAAAGACAACTCCATTTTCTCCTGCAAACCAAACTTCAAATCCCCTACTAAAAGCTGAGCAGCTTCC
+	//                                                                           |190|
+ |191|	xaa     GCTCGCATTGGCAATGACTTTCAAGGATGTGCGGGGCNGCATCAACATCGACCAGGACACAGTTGAGGG
+	//                                                                           |191|
+ |192|	xaa     AAGATTAAAGAGAAAGCAWAACCCCTTTGTGTYTGTTTTAAATCATACTTAGGTGAAAATAATCGATCA
+	//                        -             -                                    |192|
+ |193|	xaa     TATACCATGTCCTCGTAAGCCCGGCCGTAGTTCATTGAGCAACCCCATTTCTCCTCCCAGTCAATGAAG
+	//                                                                           |193|
+ |194|	xaa     CATTGTCATCATATCGTATTATCATGCCGCTGTCACGTTTAAGTTCTTTACAGGTACGAACAATGACAG
+	//                                                                           |194|
+ |195|	xaa     GATTTTTTCATAAGCCAACTTCCAAACTAAATTCATTCTTCCTTGTATCAAGAAAAACAACACTAAAA
+	//                                                                          |195|
+ |196|	xaa     CAAANCTCTTACGACGAAACTATCAAGTTGTTGATTAAGAATCAAGAGAAGATGGAGCGGATGATTAGC
+	//                                       -                                   |196|
+ |197|	xaa     GGTTTGTGCTCAGAATTACTGATAGAGCGCAAAGGGAAACCACAACCTGCACCATTAGTTTCGACATCT
+	//                                                                           |197|
+ |198|	xaa     GCAATGAGACTAAGTCTTATTCTTTTTTTCCTGGGCATTGATTTCTTCCTGTATAGCATCTCTCCAGCA
+	//                                                                           |198|
+ |199|	xaa     AAGCAATTGAAGAGAAATAAATGACTACTTGAAGAGATTAGAAAACCAAAANGTCACATACGACANGGT
+	//                                                                           |199|
+ |200|	xaa     CCTGCTCCAGAGCTTGCTTGCTTTTCGACAGCCGGACAGAAAAAAAATAAAATTAATTAATTAATGCGGC
+	//                                                                            |200|
+ |201|	xaa     GTCCCTGCCCAGAAGAGAAGAGAAACTAAAAAGAGAATTTTTCATCATCATCAACTCAAGAGTGACGAA
+	//                                                                           |201|
+ |202|	xaa     GATTGGACGTCTATCTATCTCACCACGCTCCCCTACTCCTAACAAGGCCGGCGGAAGGAATGCTCTGCT
+	//                                                                           |202|
+ |203|	xaa     CAAAAAGAGTTTACAGCCTGTTTTCTTAAAGGCGTTCAAATAGCAAAAAACATGTCAGAATTACAAAGC
+	//                                                                           |203|
+ |204|	xaa     AATATACATGATTGGATAGGGTAGTCCATCAAAAG
+	//                                         |204|
+ |205|	xaa     GATGCACCCTCCTCCTCCTCATGAAATCCGGCCATGCCATTGCAGAAACTCTGATCANCAGTTATAACA
+	//                                                                           |205|
+ |206|	xaa     CCGGATTTGAAAAAGGAATTGATCGCGATTTTGAACCTGTTCTTTCCATGACCCCTCTTAATTGAGATG
+	//                                                                           |206|
+ |207|	xaa     AAGATTAGACTGATTCTAGTTTTGTTTCCTCTTGCGTGCAGACATTGGAGCTTATGCAACAAGAAAGAC
+	//                 -                       -                                 |207|
+ |208|	xaa     AGGAAAAGCTTTATCCCAGCGAATAGAGGATGCTCAGCTCCGCACAACATAGGGATTGGCACACTTTCG
+	//                                                                           |208|
+ |209|	xaa     TTTCCATGCACRTAATATGAAAATAGGCAGTTTTAGTTGAATGTATTCAACACATATTCAGAACTTTCT
+	//                 -                                                         |209|
+ |210|	xaa     GATCAACAACAATAGCTGCACGGAGTACGGTAGAATTCCTCGGTACGGTCATTCGGGAAGTCCCTCCGA
+	//                                                                           |210|
+ |211|	xaa     TTCCTTTTCGGGCGGCTGTAGGACGGACGGCCGCCTATAGGTGGTAGGGTAGGGTGGGTGGTACCGCTC
+	//                                                                           |211|
+ |212|	xaa     TTATTAGTTCTAATCATTGAAACTTTTCAAGTGAAAAGGAGTCTGTGTCTGTGTAATTGCCCTTTWAAA
+	//               -                                                       -   |212|
+ |213|	xaa     GGTCCCAAATGAATTGGCTTATTCGAAAAAGGCCTTGTTCTTTGGAAGATCTATCTCGTGTCTGGTACT
+	//                                                                           |213|
+ |214|	xaa     TGATTGAGCTACACACACGCATGCACAAAAGAAATTGAAAAAGGAAAAGAAGTTTATTCCGCTCGCGTG
+	//                                                                           |214|
+ |215|	xaa     ACTATGATAGTACCATCTTAAACTGTCTGTAGGCATTTTAAGGGTGTGTGTGTGGATGATTCTTATAAG
+	//                                                                           |215|
+ |216|	xaa     CGGGCGCAAAGTGTTCTGCTGCACGACTCAGCTCGAGATCGACTTTTGGAAGGAGTGTTGCCCTATYGT
+	//                                                                        -  |216|
+ |217|	xaa     GTCTAACAGAGAAAANAGGATTTCTGGAGGGATTGAGAGTGATGAATGACTTTGATCAGAGAGGTGCGA
+	//                                               -                           |217|
+ |218|	xaa     GAAAAGCAATATTCAGGTCTTCTTCTGTGAAAGCTAAAGAGGTGAAGGGAATAGTATAGCAGCGGCGG
+	//                                                                    -     |218|
+ |219|	xaa     AAGAAAAAACAGCAAAATCCGATCCAATTTATCGTAATCGATTAGTTAACATGTTGGTTAACCGTATTC
+	//                                                                           |219|
+ |220|	xaa     CAGAATAAACCAATTTAAAAATGGGATAACATGCTCTATAGGGCATGAGCTCGAGTATCATAAGTGTTT
+	//                                                                           |220|
+ |221|	xaa     ATAATGAAGAACCATAAGACTGAATTACCTGAGATGCCTGCGCCCATAAGAAATCCCGGAGCCACCCAT
+	//                                                                           |221|
+ |222|	xaa     AGATGTCTGCGGTATTTCGGAATTCTTGTAAGACACGCGTCTTGGCATCCACATACGCATCAAACGCTT
+	//                                                                           |222|
+ |223|	xaa     AGAAGCTAATACCTTGACACTTTCTCACTTTAAAATCACCTCGCGAAAAGAAAAGGTAATTTATTTCAT
+	//                                                                           |223|
+ |224|	xaa     TGAATCTTCGTACATTCATTGCTACACATGTCCAAAATCTGTGTGCCGTAACTGTGTCTCCACAAAGAA
+	//                                                                           |224|
+ |225|	xaa     AAGTCGAATCAAAATAGTACAGAAAGTACCAAGTGAGATAATTTAGTGAAGGACTGAGAAACGTCTTCA
+	//                                                                           |225|
+ |226|	xaa     TTTGGGGAATTCACAATTAAATTAATGTTTATTTGTGAATTANCGCTACAATTTCCGCAATTTACTAGC
+	//                                                                           |226|
+ |227|	xaa     ACAACGATTCAGTAAACGGATGAAAAATAAAATGGCTGCTTGAAACTCGAAGTAACAAGCCAAATTATA
+	//                                                                           |227|
+ |228|	xaa     CCTGTTATATTGATAACAAAAACACACTTCTTTTCAAAACAAGGTTTAGAAAAAGCAAAATTTTAGGTA
+	//                                                                           |228|
+ |229|	xaa     GCTCCAATATTCCTAAGCATCAATTCTTGCATAAGTATACATANAAACCATTCATATAATATAATATAT
+	//                                                                           |229|
+ |230|	xaa     GCTGACTGACGTCATGATCCCCCACGGTGACGTCTTGGACCACCTCGCCACCTACCACAACATTATTAA
+	//                                                                           |230|
+ |231|	xaa     CATGGTTCTTTTACATTACAGAGTAGAAAACCTGAATGTTTTTCGCCTCCATTCCGATGACGAAAATTT
+	//                                                                           |231|
+ |232|	xaa     TTTGCACAATATTAGATAAATATGCTTTGCACAAGATATGGCAATTGGGGTGATTGGGTCCTCTAATGA
+	//                                                                           |232|
+ |233|	xaa     CAGCCCCGGCATGGCCCCTTCGCTCAGAATCATCCCTCTGTATCTTTCCCTGCTGCTCTTGCATATCTT
+	//                                                                           |233|
+ |234|	xaa     CAGAGTTTGGTTGTTTGCGAACTGAGAAACACAAACTCAGAAAAGTTATTAAAAAACACTGAAATTTAA
+	//                                                                           |234|
+ |235|	xaa     CGCATAACCCATTNCAGCAGGTGGCCCTTTCGTTGCAACATCCCAAACCCCCTACTGTCAGCCCNTGCC
+	//                                                                           |235|
+ |236|	xaa     CACCAAGATGTTGTCCGGGGCTCGCCAATGGAATTAATTTACCANRANTTTTTGNTTTTTTTCCTGTCG
+	//                                                   -                       |236|
+ |237|	xaa     GTGATATTTTGGAAGATTCGACCTGGCAGCAGCTTGGGTTCGAAGTGTTTAAAACTCGAGGGGTTCGAA
+	//                                                                           |237|
+ |238|	xaa     AGAGGAGACCTTCGCAGCCTCTTCCGACATATCGGCATCGACGAGATCGCTGAGGGCGGACTTACGGAT
+	//                                                                           |238|
+ |239|	xaa     GATCTCGAGCCTTTGCGAAAGTTGTTGGTTTCTAGGTATGGTCAACGCGAAGATAGGGATATCGAAGCT
+	//                                                                           |239|
+ |240|	xaa     GAAACCCACAAAGAAAGTAGAAAAAACAGCTGGTTCGACCATCTTATCGAGCTAGAAGCNCTAAGGAGC
+	//                                                                           |240|
+ |241|	xaa     TTTCACAGTCTGAATTAGTTCATACTTACACATGCATGGCTTAATCTTTGAGACAAGCATATGACTACT
+	//                                                                           |241|
+ |242|	xaa     TAGACGCGTAGATCAAAGTGATCACCACCTTTCTCCGGCAGCAAACACGGCCAGAAAGACATCCGACTG
+	//                                                                           |242|
+ |243|	xaa     GTGGAGCCCTCTTAAGCTATCNTAGCTGAGCTCATTGCAACTTNCTCGTGCATAAAACAATCCACAGCA
+	//                                                                           |243|
+ |244|	xaa     GCTTTGGAATTGGCCTAACTCGCCAAAAACNTGCCACATGGCTATCCTAAGCTGAACGNTTGCGAGTTT
+	//                                                                           |244|
+ |245|	xaa     TTTTACCATGAGCCGATTGTATCCATTGAGCAAATATAGGTTCGATCAAAATTTGCTTTTCCGGAGTAC
+	//                                                                           |245|
+ |246|	xaa     AAACTCCATGTTGATTTTTAAAGTNTCCGGGCAAGAACTCAGCCATGTATCCTTCTCATGAGCAAGTCG
+	//                                                                           |246|
+ |247|	xaa     AATTGTTCCGTCTCCCTATGGAAAGGAAAAGGAGACACACTTCCGACATCCCTGGGTTCGGTTATGGCG
+	//                                                                           |247|
+ |248|	xaa     CAGGAGAGACTTAATTTCTTTGTGGGCACAACAACTTCTTCATCAGAATCATCTGAGTCAGCTGACCCA
+	//                                 -               -          -              |248|
+ |249|	xaa     TAAGGCAAAACTCAAATGTGATTCCTGGCAAAAATAGTATTGAACGGAAAAGATGTTATGTTTGGTTCG
+	//                                                                           |249|
+ |250|	xaa     AGTTCGGGTGCTTTTGAAGTGTACTCCAACGGTGAATTGGTAATGATCCTTTGCTCATATTTTTTTCAC
+	//                                                                           |250|
+ |251|	xaa     TGATTTCGTATTCGTCTCGCCGTTGAGCACCGAGAATCCAGTTTCCANGGAAACTTGCCTGCTGAAACT
+	//                                                                           |251|
+ |252|	xaa     CGCTGGGAATTGGACTGGGCAACAGTAAATTGGCGACGAGGGCTCCGGGCTTGGCTCCGTCCACAACAT
+	//                                                                           |252|
+ |253|	xaa     TTATCTAGTTTTTGGGTTTTCTTTGCTGTTGACCTGATGTTGTGCTCTGTGGTTGCTTCTAAACAGTAG
+	//                                                                           |253|
+ |254|	xaa     CTCTATATTATTTGAATGGTCTTATTGCTGGAATGGTAAGTGAAATGCATGTATTTTGGAGGTCGATGA
+	//                                                                           |254|
+ |255|	xaa     CAGGTACATAGGATGGATGAATGAATATTGTGCGACTTCAAGCTTAATATATTAATTTGAGCCTTTTTT
+	//                                                                           |255|
+ |256|	xaa     TCTGACCATGATGATCGGTTTTATCTGTATCTTCGTCTCCGAATAACTGTATCATCTTCCCGGCGATCA
+	//                                                                           |256|
+ |257|	xaa     CTTCAGGTTTATGCTCTTCTTTCTGCTTTCCATATATCTGACATGTCACGACATATGTGAACTTC
+	//                                                                       |257|
+ |258|	xaa     ATGCTCCGAAGAAAATAAGCGGGGTCCACAAGCGCTGCTGGAGATACATTCCGAACTCAAAAAAAGTCG
+	//                                                                           |258|
+ |259|	xaa     TGGCCATTAGCTGTAATAGACGCACACAAGGACAAGGTACTACTTTCCCGAACCTAATGCCTCCTGATT
+	//                                                                           |259|
+ |260|	xaa     TTCACACTTGGGCAAAGACGACTGACTTTTTGGAAGCGGAACACGAACCGATTTACGCTATTCCGGGTT
+	//                                                                           |260|
+ |261|	xaa     AATGTGATTCATGGGAGCATTATTTTCTTTCTTTATATNTCTGTGATAGGAACAAAAAAACATTTTTTT
+	//                                                                           |261|
+ |262|	xaa     GCAATGACTTGGAATGTTTTCTCGTCGAGAGCTAAGAGACAGTCAAAGGGCTGCATCAGCTTGCCTTTC
+	//                                                                           |262|
+ |263|	xaa     CGTCCTTGTCCCCGAACAACACTAGACTCTCCTTGTAAGTAAACCCAGTCGTCTCTGTTACAGTTGATG
+	//                                                                           |263|
+ |264|	xaa     AACTACACGACATACACGAAATTCAGAAACTCAATAGCAATGCGGCTCGATGCATACGTTAATCTTTGA
+	//                                                                           |264|
+ |265|	xaa     ATGATCGATTGGAATGTCGAGCCTGCTGGTGGTGATTTCGGAGGGTTTGATTTCGGGGGGTTTGATCAG
+	//                                                                           |265|
+ |266|	xaa     CAGCCAGTTTGTTGTGGCAGTCAAGGCGCCAGAAAGGCGGGCCGAGATGGCCGATATCCTGTTCATGAA
+	//                                                                           |266|
+ |267|	xaa     TAAAATAACAAACCTCGGTTAGTTGCTGAGACGAGCTACCTTGACCTTCCCCACTACATTGACTCAACT
+	//                                                                           |267|
+ |268|	xaa     AGCATAATGCTCTTGACAAATTGGTTTCTGTAAGTTTTTTGTCTTCCTTCCCCAGCTTTGCTTTTTATC
+	//                                                                           |268|
+ |269|	xaa     GCACTTAAATAATTAACTACTTGTTCCAACTATATTGTTTATATGACTTGCAGAAGATCCAAAGGTCAT
+	//                                                                           |269|
+ |270|	xaa     CATCTTGTGATTTTTTAGCTAGAAAAACTTCCCCAGGCTCGTGGGGTCCGGACGGATGTCCCTGCAAG
+	//                                                                          |270|
+ |271|	xaa     CAGCAGTGAAAATCATGAACACACTCCGCCATCCAGACTTTATGCTTCCAACTTTGGATT
+	//                                                                  |271|
+ |272|	xaa     ATCCTTACGATCTCTTACTTTCTCTAACGTAGCAAGAGTTGTGTTGGATTCAAATAGAGTTGAGGAAAA
+	//                                                                           |272|
+ |273|	xaa     TTAAGTTACTAACCTCTCACGGCTAACTATATCTTTGTTGCTTTGAACTTCATCTCTGCCGCTTGTGCT
+	//                                                                           |273|
+ |274|	xaa     AATATGATCAAAGGGGTCCCCTTCGATTTGGTTCTTCACAGCCTTTTTTAACGCACCGATAATAACTTC
+	//                                                                           |274|
+ |275|	xaa     CAAAATGTATATTACCAGATCACATTTATTATGAACGTTATTCGGAATCCAGCTTTTTCTTTTCAATAT
+	//                                                                           |275|
+ |276|	xaa     AGGCCACTAAGAAGGCTGAAGGCTTGGCTGAAAACATGTGGCAGCACTGTGAGTNNTTGATTTAATTTT
+	//                                                                           |276|
+ |277|	xaa     GTAATGAAGAGCCGTGGAGTCAAAGTGAACGTCATCGTGTACAACACGCTGATTTATGCTCTTTGTAAG
+	//                                                                           |277|
+ |278|	xaa     ATGAACATCGCATTGTTCACGAGCGCCTTGGNTTTTGCCGCCCCAATCGCGTCAGTGAGTTTGAGCTTG
+	//                                                                           |278|
+ |279|	xaa     AAATTGTACTGTTTTGATTCGGTGTGCGAATTTGTTAATCTCAGGGTTTGTTCTGTTACAATCGAATTG
+	//                                                                           |279|
+ |280|	xaa     ATGTNTAAGGTCCTCGGTAAGCAAATTGGCAGCGACCAACCGCTTTGGCCTATTGCCNTCCACGGACAC
+	//                                                                           |280|
+ |281|	xaa     CTGGGATGTTCAAGCTACTTTTTAGCACCTCACATGGCAATCCATCCACCGTCTCTCTTTATGCATTGC
+	//                                                                           |281|
+ |282|	xaa     TCTTTAAACAACAAGTCCGGTTTAAGCTCCTCTCTCTCCTTATACAAACTCTCGAGCTCCCCTCAGGGT
+	//                                                                           |282|
+ |283|	xaa     ATTTGGGTCTCAGATAATCTCTTTCGACAAAGGCGAATTTGAGCAAATTAACTGCGTTGCGACCACGGC
+	//                                                                           |283|
+ |284|	xaa     GAATATTTGCTGTCTTTGTACCAGTCCAACAATCATTTTTACCAGTAC
+	//                                                      |284|
+ |285|	xaa     CCCCATTGNTTGCTGCCTTCATCATCCACCTCTGGTAACCATCGGCAGNTTTCCTTCTATTTTTCANC
+	//                                                                          |285|
+ |286|	xaa     AGGCAAAGACGAGCNCGCAAAACCTGACANAACCATTTCGGGAATCACCAAAATCGAATTCCCA
+	//                    -                                                 |286|
+ |287|	xaa     AGCTTTTCAAGGAGGTTGCATATTCATATAGCATTTTGTCCGATCCAGAAAAGAGGAGACAATATGATA
+	//                                                                           |287|
+ |288|	xaa     GAGAGGCAGGGCGTGCTAGCCAGCATTAATTGTTTGTAGGCAGCNAAATGTACACAACCACAACCACTA
+	//                                                                           |288|
+ |289|	xaa     CTCAAATGGTCCCTTATGAAGTCTCTATTGGTCTTATTCTTATTGTGCGCCTTGTGAGCGCGTTTGGAT
+	//                                                                           |289|
+ |290|	xaa     ATATTTGGTTGATGCATANCCACTTGTGTAAGAACCACCGGCNGCTTTATAATATCCTTTGTCATCATT
+	//                                                                           |290|
+ |291|	xaa     GGGCCTTGTGCAGTAAACCCCCTACGGGCGGTCGTCCGTCGTCGTAAAATAGTCCCCGCGAAGCTTTCG
+	//                                                                           |291|
+ |292|	xaa     AATGTTGCCGAAGCATCACGTCTACGTTGAAGTAGTTTNNGTTCCTGGTTTATTCAGGTGCTAACAATCTA
+	//                                                                             |292|
+ |293|	xaa     MCCTAAAGTTGCTGCTAGAAGCCTGAATCTTCCAATTCTGATGAAGAAGCTGGTCCAGTCAAGAAAGTT
+	//      -                                                                    |293|
+ |294|	xaa     CCCCTCCCTCGAGCGTGTAGCGTTTGTTCGAAGAGGGGGCGTGTTGAAGGCTAAGTTTGACTTTCCAAA
+	//                                                                           |294|
+ |295|	xaa     GTCCCTGCCCAGAAGAGAAGAGAATTTTTCATCATCATCAACTCAAGAGTGACGAACTCCATGTTCATG
+	//                                                                           |295|
+ |296|	xaa     TGTGAATTCTCATACATCAGGTTCGTATTCCTGAGCAGTGAATCACAGATAATTGAAAGACCTATGGTC
+	//                                                                           |296|
+ |297|	xaa     CATCGGAAACTCGGGTGAGGTGTAAGTCCATTGAAATTTGCCCTCGNTGGCAGCTCCGTCCAATAGAAA
+	//                                                    -                      |297|
+ |298|	xaa     CCGAATACTCTCAGATGGCGAAGCCCCGAACGATTCCTTTCAAGTCAGTGTTGGAGTTTCTTCTCAAA
+	//                                                                          |298|
+ |299|	xaa     GGGCAGTTCTGTAMTTTCTAAAGGACGCAAGAGCTTTCTGTCGCCAACGAGGCAATCCGGGGGAGTTGG
+	//                   -                                                       |299|
+ |300|	xaa     GGTGCTCCACTGTGACTCAAACAAGGAGATTATTGAGTGGCCGTGATGCATTTTTCCTCCATGCGCATA
+	//                                                                           |300|
+ |301|	xaa     TCTACATAGCGCGGCTGATTTTGAAAGCTTGTGGAGAAGGYACATTTCAAACACAAATCTGGAGAAACG
+	//                                              -                            |301|
+ |302|	xaa     TCCAGGTGGGCCATCTTAAAGGATACGAGAGTAGAATATTTTAGAAGAAAAGATCTTGTTAGCTTTTTG
+	//                                                                           |302|
+ |303|	xaa     CAAACGCAACTTTCAGTATGGGTTCTGACGAAGCCAATTTAGTAATTAGTAAAGCTGAGGTTAATGAGG
+	//                                                                           |303|
+ |304|	xaa     TTTGAGCAGCAAAGGGTGTCCCTCTTCTCGTACCCTTGAATCCACAAGTACCGGCCGAGGACCAGGAAA
+	//                                                                           |304|
+ |305|	xaa     GTTCATCTCTTTCTACTCGAGATATCATCGAGATACCTGATAGTGATGATGGAGCAGCTAATGTTTCAA
+	//                                                                           |305|
+ |306|	xaa     ATGATGTTCTGAAATTGCTGGAGCGTTTTTTCAACTTGGAAATNGTGGTANGCTCCTTNTACTTGTCTA
+	//                                                 -                         |306|
+ |307|	xaa     CTGCTTCTTCTCCATGGCTGATGCTACCGCCGAGATATGAAGGCAGGACGACGATTTATAAGTTCTACA
+	//                                                                           |307|
+ |308|	xaa     AAGAGAAGGGCAAAGCCGGAAAGGAAGACAAGGTTTGTGTGTTTCATGAACATCAACATNANTTATCTT
+	//                                                                 - -       |308|
+ |309|	xaa     ATGAGGTGGGGCTGAAGCCCAATTCCATTTATTTTACGGATTCGAATAAAAATCCAACTTTGCCAGCGG
+	//                                                                       -   |309|
+ |310|	xaa     TTTTTTTTTTCCCCCTTCTTCAAACGTTAGAATTATTTTATATTTTACATAACTTCAACATGTCTCGTCA
+	//                                                                            |310|
+ |311|	xaa     AATGGTCGAATTAGTTCGATGGATTTTCATAGGGCATCCAATTATTTGGTCACTGCTAGCGATGATGAA
+	//                                                                           |311|
+ |312|	xaa     CCGGCTTATTTTCTATTTCTSAACCCAAATCTTCAATTTYGTCTTCCTCTCTATCGCCGTTATCGCTC
+	//                          -                  -                            |312|
+ |313|	xaa     CATGTGATGCAGCAAAGGAAGCTTCTTGGATAAGGAAGTTCATCCAA
+	//                                                     |313|
+ |314|	xaa     CTCCACGAGTCTGCTCGGAACCGGTCGATTCCTAAGCCATTCGTTCTCCCCTCTCGGTTGGCCTTTGCC
+	//                                                                           |314|
+ |315|	xaa     ATCTTTTCTTCATCAAACTCCAGTAATAACATCATCCTGCGCCTCTCTCCTCGGCATTTAACCAACAAA
+	//                       -                                      - -          |315|
+ |316|	xaa     ATGGTGGAGATGGTTTCGTTTGTATGATTAGGTTTAGGGTTTAGCGGAAAAAGGTATTATGGTTTATAT
+	//                                                                           |316|
+ |317|	xaa     ATTTTTCTTGGCGGAGAAGCTCATTNTTTCTTNTGAATCAGAGTCTACACTCTTGTAGGTAAGAA
+	//                                            -                          |317|
+ |318|	xaa     CTTGGATTATCGTAGAATAAGAGGGGCCGTCTTAGGAAATGACTTAGTTTAACTTAAAAGACAGATGCC
+	//                                                                           |318|
+ |319|	xaa     TTGATGTTACGGATCAGCCTCACTCTTCAGGCCAGCAGCTTTCTTCTCGGCGGCGATTACAGTCTCTTT
+	//                                                                           |319|
+ |320|	xaa     TTATTGAAATATGATAGGGGCTCCCAATGCAAACAAAACTTTTATGTTCTAAAAAGGGTGCTTTGATCG
+	//                                                                           |320|
+ |321|	xaa     ATTGGTGGTCAGTGGGAATTATCTTGTTTGAATTTATAACTGGAATCCCCCCTTTCAATGCTGCTCATC
+	//                                                                           |321|
+ |322|	xaa     CTGGGTCAGCCCGTCCTTGTGGCCCGTGACCCTCCTCGCCGCTGGGACGATGAATCGGTCGTACACAGG
+	//                                                                           |322|
+ |323|	xaa     CTTCTACTTACGATGAGCAAAGTGGTTGTGACGATATGCAAGAGATGTTGAATGATGCATTCGGAGTAC
+	//                                                                           |323|
+ |324|	xaa     ATTTTTCTTGGCGGAGTATCGGAATGGATTGCCCATCGTACCAAAGACTTCAACAACAATCAACAAATT
+	//                                                                           |324|
+ |325|	xaa     GCACATTAGGNTCAACCTGGGTCTGGGAGGCTTCATCGTTAACATCCGTCGGCGCGNGGGAGGTGAGTG
+	//                                                                           |325|
+ |326|	xaa     CCAAAATAAAAAAACAGAATTGAACAAAGTCTACAAACAAGAAAACTGAAACTTCTTCTCTGCGTTTCT
+	//                                                                           |326|
+ |327|	xaa     TACGAGCCTCATACAGAGCCGCGCTCCTTTAATATGATGAGAAGAAGGGAAGGGGGGCCACCCTCTTTT
+	//                                                                           |327|
+ |328|	xaa     TAAATAGGAAAACAAGATCAAGACTCAATCATGATCAAATGCACTTGCACAATTGAGAACCACAATAGC
+	//                                                                           |328|
+ |329|	xaa     GGATCCGACATTCCGAATCAGGGAGGACTGTTTCTCCGACCCGTGCTTCTGCGCCCTGGGGTCCACGCT
+	//                                                                           |329|
+ |330|	xaa     AAAACACATAATTG-TTTTTTTTTTTTAATTCTTTTCCATACTTTTTCTTTCCACAACAAAGATCTACTA
+	//                                -                                           |330|
+ |331|	xaa     TTGTTCGTCTTTCATAAATCCAAGAATTTCACCTCTGACTATGAAATACGAATGCCCCCGACTGTCCCT
+	//                                                                           |331|
+ |332|	xaa     CAGTTTATACAGAACACGTTGCGGAGTTCCGCTGTAGTTTATCTAAACAAGAAGCAGTTTATTTTCCTA
+	//                                                                           |332|
+ |333|	xaa     CATAACCAATCAAGAAAACTGCTATCGCAACGAGGAACGCACCGATGGCGATGAAGGGGCGGCGACGCC
+	//                                                                           |333|
+ |334|	xaa     ACGACTCTCCAGTGGTTCCATTCCTTCTTACTGTGCTTCTGGGTCAACCCAACCCGAATGGGAAGA
+	//                                                                        |334|
+ |335|	xaa     AGAGAGACTTTTCGATCAATCAATAGGCAACAAACAAAATGGACACAAGATTGGGAAATTATACTCCAA
+	//                                                                           |335|
+ |336|	xaa     TTGTGATTGATCAAGAAGGAAATCCAAAAGGAACTCGCATTTTTGGTGCAATCCCGCGGGAATTGCGAC
+	//                                                                           |336|
+ |337|	xaa     TACGAATACGAACCGTGAAAGCGTGGCCTAACGATCCTTTAGATCTTCGGAATTTGAAGCTAGAGGTGT
+	//                                                                           |337|
+ |338|	xaa     TTGATGATAACTCAGCATCTTGATGCAATGCACCTCTTGACTTTCTTCGAATCCTACACAAGACGAAGG
+	//                                                                           |338|
+ |339|	xaa     TTTNATTCTCTACTTGCCATGTAGCCGTTCCTATTGAGAAATTGTGTGCTTCATTTGTTTTTGGACATT
+	//               -                  -         -                 -            |339|
+ |340|	xaa     CAAAAAGATGYAGGAATTTTCATTTTCAATTATTCTTTMAGCYATTAAGACCAACTATTGTGTAGTTTA
+	//                -                           -   -                          |340|
+ |341|	xaa     TTGAGTCTTACCGGAGTCGATTTCAGGTTANGGTTTGATATATATACATTATTTCTTTTAATGATCAAT
+	//                                                                           |341|
+ |342|	xaa     CATGAGGTCAGGCGAGTTGAGGATGATCATGCCGACGTCNACCCCACACAGAGTCGACAGCTCCTTTGC
+	//                                             -                             |342|
+ |343|	xaa     CCGTTGGGTGGTTTGTAGAGGCTAACATGGTATTCAAGCTCATCGACCATTTTAATCCCAAGGACTCTT
+	//                                                                           |343|
+ |344|	xaa     AGATGGTTGTGGAACTATGACCAGTACCGAAACTATCATATTCGCTCTCAGACCGCTTAGTAAAACCCG
+	//                                                                           |344|
+ |345|	xaa     ATGTTTGTGTTTCTCATGTAATTATTAATTAGAAGCTTTTTCGTGTGGCCCATGATTCATGTATCCCAC
+	//                                                                           |345|
+ |346|	xaa     CAAAGAACAACGCAAATCCAACTCGAGAAAGAAAAAACGATCAATCGTCAATGGCGATCGGTGTAGGCA
+	//                                                                           |346|
+ |347|	xaa     CCAGCAGATACAGAGAAGAAAAACTCATGTTTTGTTATTTAAAAATTAAAAAAAAAAAACATAAATCTA
+	//                                                                           |347|
+ |348|	xaa     ANTGATTTACAACCTGAGTCACATGNTAACTCACTCAGATGTAGAAACACAAAATAGTCATTAATCATA
+	//       -                                                                   |348|
+ |349|	xaa     ATAAAGTTCTGAATTTGTGTATGCATTATCTGAGTGGCTCAATATTACTGAACAGGGTAAACAATTTAC
+	//                                                                           |349|
+ |350|	xaa     ACCATTATTGTCGGTCTATCGAAACCCAACAACAGAGGAGATCAAAAGCTACTCGCTGTGGCGGCCNTC
+	//                                                                        -  |350|
+ |351|	xaa     GAGCCATGTTCCAAGTCATCTGGAAAAGAAAACTGTTGGTTAAAAGAAGGTGCACAGAAAGGAGAACTG
+	//                                                                           |351|
+ |352|	xaa     TACCTCGACGTGACATGAGCGTGAAAGGGGTTTAAGAATCAGTTTTCTTTTTATAAGGGCTAAAATTAC
+	//                                                                           |352|
+ |353|	xaa     ATACGATCACTCCGCCTTTCGCTTAGTTATCCTTTCTACTATCACTTCCTTTAGCAGTTCCGGAACATC
+	//                                                                           |353|
+ |354|	xaa     GTTGGACCTGAGATTTGCTTGTTAAAAACTCATGTGGATATCCTGCCTGATTTCACTCCTGATTTT
+	//                                                                        |354|
+ |355|	xaa     CCCAGGAATAAAAACGTCGTCTAGGCGTTCCCTCTTGCTCCGATCTCCCCTACGCCTAGGACGTTGTCT
+	//                                                                           |355|
+ |356|	xaa     CACCGCCTGTGCTGGTTTTGGCCGAGTTTTGGAATGCTTTTTATTCTTGTCTATTTCTGTTTTTGTTTT
+	//                                                                           |356|
+ |357|	xaa     AAGAATGAGGAAAAAGTTTATGAACAGGAGAAGGCCGCAATACATCTCCATCATCATTCTCCCCCGGGG
+	//                                                                           |357|
+ |358|	xaa     AAGTAGGAATAATGGCACCCGAGATAATATTGTTTCCGTAAAGTAGAGATCCAGAAACAGGTTCACGAA
+	//                                                                           |358|
+ |359|	xaa     CAGTGGCAAGTATTACAAAACGAGAACAAAGTCAATTGTTGAAACTCGTCTTTGCGCTTGGGGCAATGA
+	//                                                                           |359|
+ |360|	xaa     GGTCGTGGAACATTGAANGAAACCATCGAATTGGGCGGCCGAAACANGGACAAGAAGAA
+	//                                                                 |360|
+ |361|	xaa     CTGCACGAGCCCTTCCCGCATGCCACAAATGACCTACGAATAAGAAGAATCCTAGAACAAAATGAGAGG
+	//                                                                           |361|
+ |362|	xaa     TTCTTCGAAACTGGAGGGTTCTATTTGCAGAAGCTTGAAAGTTTAT
+	//                                                    |362|
+ |363|	xaa     TAGAGCGTTTTTCACNAGGGTCTGCGGGCCCCTTACAAAGAAGCTCTCAGAATCATTCTCAAACGA
+	//                                                                        |363|
+ |364|	xaa     CTAGGAAAGAGAGAAAGATTNATGATGATGATCTTGTGGTTATGGTAATCTGGAGCTTTGGAGAGTAT
+	//                                                                          |364|
+ |365|	xaa     TCCCAGAGGGAGCCAAAGAAAAAAAGAGAATTATTTTGCAGGTCAGTTCGTATTTCTCTCTCTCTC
+	//                                                                        |365|
+ |366|	xaa     TTCACAGCCATGAAAACCTGCGTACAGTACACCAGAATGACTAATAAAATA
+	//                                                         |366|
+ |367|	xaa     TTGTGGTTCATGCTGTGAGAGCTGGTTTAGATCCTCAGGTTACGGCCCAGAAGATAGCGGCACTGGCAA
+	//                                                                           |367|
+ |368|	xaa     AGTAGGTCTGCAACAAAATCAAAAGCAGGGTGAGAGTTCTCTTCATCGGACTTCTAAGAATACACA
+	//                                                                        |368|
+ |369|	xaa     TCAGAATCAAAAGTCTATTCTCTATCAAATTCCAGCACAACCAA
+	//                                                  |369|
+ |370|	xaa     TTAAAAAGCTCGTAGTTGGACTTTGGGTTGGGTCGGCCGGTCCGCCC
+	//                                                     |370|
+ |371|	xaa     CAAGAAGAGGAAGAGAGACTAGATTGCGCGTGTRAGGAATCAGAAATTGAAATGGGCAAGAAGGTGCAA
+	//                                       -                                   |371|
+ |372|	xaa     AGCAATGATGAAAAAGGGGTATCCGGTGCCGGAGATTGACGAGTTCGACATGAACAAGAGTTTCCACAC
+	//                                                       -                  -|372|
+ |373|	xaa     CGCAACCAGCCGTTTTAAGTGGCAGTTCTGTTCAAAAGGGGCAGCTGGATTTCTTTCTGATGGATGTTA
+	//                                                                           |373|
+ |374|	xaa     ACTTTTGGAACTTGGGAAAATATAAAAGAGCAGCATCCCTAAATTCCTAATCAGAAATTCATCGTACAT
+	//                                                                           |374|
+ |375|	xaa     ATGAGGAAATTCCGCATTTGAATAAGTAATTTGGTAAGCTCTTTCCATACTTCTTTCTCTTTCGGGGGC
+	//                                                                           |375|
+ |376|	xaa     CAAGCTCTGCTTGCATTTGCTCCAARTCGAGCTCCTTGGAATAAAGCTTCTCRCGCAACAAACTGGTCA
+	//                               -                          -                |376|
+ |377|	xaa     CCCATCAAGAATCATAAACATAATAACACACAATTTGTGTGTCCAATCACAATTAAGAACAATCATAAA
+	//                                                                           |377|
+ |378|	xaa     CGGCTAAATGGCCTAAACCTCCAAGTTTCAGCTCCACACGCCGCAGCAGCCTCGCCAAGCTCGTTACTC
+	//                                                                           |378|
+ |379|	xaa     ATGTTGTATATGTTGATTCTAGTGCAATAAAGGAAATAGGCGGGTCTGAAGTATGATGAACAAGTTTGC
+	//                                                                         - |379|
+ |380|	xaa     AGCCTCTAAATAAGACGCTCTAGATGATGCGAGTTTTATTCGGGGAGCAAGAATAAGTGCAGTGGTGGT
+	//                                                                           |380|
+ |381|	xaa     CAATTAACACTGCAATTGAAATCCAAGAACATGAATTGTAAGAAAGGGGGTAGGACTATTGGGTGT
+	//                                               -                        |381|
+ |382|	xaa     AAATTGGGGCAACTCAANCTGGTGCNACGGTCAGTGTTTTCATACATTTTTTTATTTGTAATTCTCTG
+	//                       -       -                                          |382|
+ |383|	xaa     AGAGCCGGATGAGGGGAGACCTTCACGTCCGGTTCGGAGGGCGGGGATATCCCGACCCTACTATCATTA
+	//                                                                           |383|
+ |384|	xaa     CTTGACTCCACATAGGCTAGCCCTCCTCGCTTGCATGCCTTGTGGCAAACTAGACACTGAAAATTGTGT
+	//                                                                           |384|
+ |385|	xaa     TGAAAAAGAAATGCAACTTAGAAAATGTACTCAAACAATATGGATCATATATTTTACTAGGAAGTTATA
+	//                                                                           |385|
+ |386|	xaa     GNTTCACGTGTGGGTTGATGGGCTCTCGGGACGGCAATGCGAAAAAGTCACTGGTGCGNATTCCANCGA
+	//       -                                                        -      -   |386|
+ |387|	xaa     TTAGTTGTAACAAGGTCTCCCGAAATGATTTCAAGAGGCACGTACCCAGCCGTGGATTCGAACCCAACT
+	//                                                                           |387|
+ |388|	xaa     ATATTATCATCGCCACCTGATGCCAAGTGATATCCGTTGGGAGAGAAACTNACACTGCGAGTCTAAAAA
+	//                                                        -                  |388|
+ |389|	xaa     TCAACTTCAATCAATAGAAGATCGGTTGGGGATACAGTAAACTCNACTTTATTTATTGGCAGTACATTG
+	//                                                  -                        |389|
+ |390|	xaa     TGGACAGTTNCTAGTTTCAGGCAGCCACAAGCTCAAAAGCCCACTAACAAATGACAACACCCCAAACAC
+	//               -                                                           |390|
+ |391|	xaa     AACACGTGCGAGCCCCTTCGAATGGAAAAATAAAATTTAATGAGGATCTGGTTCACCCGACACGTACAC
+	//                                                                           |391|
+ |392|	xaa     AAACGTCTGTTTCTAGCACACTGTGGGATGAGAAGGAGATTATGCGTCACTTGAAGGGGTGTGATTGCC
+	//                                                                           |392|
+ |393|	xaa     ATAGACAAGAAATAACATGAACTACAAACAGTTGGTGGGCACATGGAAAATACCAACAATACAACATGA
+	//                                                                           |393|
+ |394|	xaa     GAAAATCAAAATATATTACCAGCTAAAACAAGCATCATCTTGTGAACCAAGGATATTGTTAAAGCTCCA
+	//                                                                           |394|
+ |395|	xaa     AGTCTACCCAAAGGTTCAGGCCGGATTGTAGGAAGTGGTTGATACGTTTTTGTATTTCTATGAGAAGCT
+	//                                                                           |395|
+ |396|	xaa     AAACTTGTCTGGCATCAGCCATTATTACAATCAGCTGTTTCAGTTCTCAAGTAATAATTTTTTGAA
+	//                                                                        |396|
+ |397|	xaa     GCTGAGGTCTCGTTCGTTAACGGAATTAACCAGACAAATCGCTCCACCAACTAAGAACGGCCATGCACC
+	//                                                                           |397|
+ |398|	xaa     TGCAAGTGATAAAACAATATCTAGCGTAGTTTTGTTTCTGCCTGGTTGCGGAGTTATGTATTGCAATTA
+	//                                                                           |398|
+ |399|	xaa     GTATGCTGTTGTAACAGGAGCAAACAAAGGGATTGGATTTGAGATTTGCAGGCAATTATTGTCTCAGGG
+	//                                                                           |399|
+ |400|	xaa     CATGGATAAACTTTTCCAGGACCTCTACACTGCTAAGAACACAAAATTGATGACTTTCTTTCATTACTA
+	//                                                                           |400|
+ |401|	xaa     CAGTAAAGAATGGGTTTTGGGCTCTATATAGGAAAAATCTGCTTCCCACTAGTGTCTGATTACCATCTA
+	//                                                                           |401|
+ |402|	xaa     TGGTTTTAAAAGCATGTGCATAAAAAACTTAGTGAGAGTGCTAATTTAAAAGCTAAGGAAAAGGATATA
+	//                                                                           |402|
+ |403|	xaa     TGAGGGCACACCACGACTTTCCTTTTCGAATAGCACCTGCCCAACAAGTCGCCCCACGTACGCTGCCTC
+	//                                                                           |403|
+ |404|	xaa     TTACTGCATGCTTCTATTTTAATGCCATGTAAGGAGCATCTCGTGAAGGTTTTTTTTTATTACTGCATT
+	//                                                                           |404|
+ |405|	xaa     GGTCACACAGCTCGTCGTGCAGAAGCGACTTGTCTTGCGGAACCTTGACGTTGAACTTGCGGGCGGATG
+	//                                        -                                  |405|
+ |406|	xaa     CCGCAACGTTCATCAACGTCACAAAAACAAACATCATCTAAGCCTTTTTCCATCGCCAAGAAAAAGTAG
+	//                                                                           |406|
+ |407|	xaa     TAGCAATAAATGCAAGAATATTTACTTCCATAATTTCGTCGGTTTTTTAATTCGCAATAACTCGGGATT
+	//                                                                           |407|
+ |408|	xaa     ACCAGCCGCCTTCCGCTGCTACGAATCGCTGCCCTCCGCCGTCCTGTTGCCGNGGCGTCGCCGCNGCGC
+	//                                                                           |408|
+ |409|	xaa     ACATTGTTTTGTACCTATGCGAGAAAGAACATATTGAAGGTGGCATGATTTTCCAGCTTTTGGAAGACT
+	//                                   -                                       |409|
+ |410|	xaa     GAGTTTTAAGGGATGGCAAAAGAATGCAATTGTTGATNTTCTGAACAAGGAGAGCATAAAGATTGGCAA
+	//                                                                           |410|
+ |411|	xaa     AGATAGTCGGCTGAGTCGATATGGGATTCGTAGTACTTATCCACTCCGTAGCTTTCGAAAACCATTTGC
+	//                                                                           |411|
+ |412|	xaa     CAGAGGCGGAGAAGGAAGCTGCTAAAAAAAGAGCTGAAGAAAAGGAAATTGAGGAGAAGGTCAGTTGGT
+	//                                                                           |412|
+ |413|	xaa     GGACCAGTAGAAATAGAATTCGCTTGTCCAAGAAAATTGCAGAAATCGAGGGTGCTGAGGCGATTCGCT
+	//                                                                           |413|
+ |414|	xaa     GAGAAGGGAGAGAGGGCTCAGTCACTCCATTGCAGTCGTCTGAAAGCTATAAAAATATGAATCGCGCAC
+	//                                                                           |414|
+ |415|	xaa     GTTCTGCATTTCTTATTTTGCTTATCGATTTTCTCTATAGCTCGTACATGGTGTTCTCATAGTTACAAT
+	//                                                                           |415|
+ |416|	xaa     CACAAACTTGAATATCGTCATCATCCAGAACTCTTCTTTGTCAAGAAATCAAGCAAGGAAAAGAAAAAC
+	//                                                                           |416|
+ |417|	xaa     TCTATATGCTACAAGCGTGGATCACTCCGGTTGCTCGATCAGGTAACTCTACAAATCATTTCCCGAAAT
+	//                                                                           |417|
+ |418|	xaa     ATNTTTGTGTTTCTCATGTAATTATTAATTAGAAGCTTTTTCGTAAAAGATCTGCCCACGTGTTGATGA
+	//                                                                           |418|
+ |419|	xaa     TTGGGGGTGATGGAGTAGGCGTATGTCACTCTGTTCACGAGAAATGTAGTNTTGACATTATGAAATCCC
+	//                                                                           |419|
+ |420|	xaa     GTTCCGACAATACGGGCTGTGGACGCGTTACGCGGACAAATATCCCCAGGCGGACCTAGTTTACACCGT
+	//                                                                           |420|
+ |421|	xaa     CGAGGCAACGCCGTGGTCTCGATGNCGAAATTCGACTTGGAGATGATTTTGAAGATGGTGGAGAAATAT
+	//                                                                           |421|
+ |422|	xaa     CTGCCTTTCGCTACATTGCTCGCCCAGTGTCTTCCTATGCTGTCATTGTTTACCCATATCTCGCCTTTC
+	//                                                                           |422|
+ |423|	xaa     ATGCGATGATGTTGGTCTTTCCACGAGCTACTGTTGTTGTTCTCAGTAGCCGCAGCAGAAAGTAAGGAA
+	//                                                                           |423|
+ |424|	xaa     CAGTTTCTAATTCTGCCTTTTTAGCTATGTTCAGAAAAACTTCTTCAAGGGTCGTTAGGCCGAGTTGGA
+	//                                                                           |424|
+ |425|	xaa     TAGAACTGATGCTCGTGGGCGACATAATTTGACGGGCTTGTTACTCACCCGCCATGAAAACTTTTTCTT
+	//                                                                           |425|
+ |426|	xaa     CAAGATAAGCGGCTTTTGACGAGCCTTTGTTGAAATAAATAGACTCATATTTTGCGGCAATTTTTTTTC
+	//                                                                           |426|
+ |427|	xaa     CCCGAACACCACCTCCATCCAAGCCCATTCTCTATCTCCCTTGTAGAGCTTTTATCTGAACAAGATCGA
+	//                                                                           |427|
+ |428|	xaa     TTCGATTTCGCGAGAGAGTAGCTGAAGAGGAATTCAACCTCTTCTAGAGCTCGATTGTACTGTCNAGGT
+	//                                                                           |428|
+ |429|	xaa     GTGGAAACTCACCAGATCAAGAAGAGCTTCATAAGATTGAGATTTCAAGTAAGTGTAAGAGCTTCCACT
+	//                                                                           |429|
+ |430|	xaa     CGTTGGTCTGAATTTTAAGGAAGCGCATGGGATTCATCAGTGGTGGAAGCCTGATTTGGAGGTCAAATA
+	//                                                                           |430|
+ |431|	xaa     CAATGGATTTCATGAAAAGTAGCAACAAAGAACATTCGTGGAAAAATTTATGGAGTCTTCCGGATGTTT
+	//                                                                           |431|
+ |432|	xaa     AGACTGTTGTTGGCCACCAGCAGCAGAAGCAGCAGGTCGATGGGCTGAGTCATGTATCCATACAGAAAA
+	//                                                                           |432|
+ |433|	xaa     CAATAAATTACTTTCTAAATGAGATGGCAGAGTGANGTATGAGTTTGAGATATTTGATTCAATTGACAC
+	//                                                                           |433|
+ |434|	xaa     AAGCACAAGGCTATGGTCGGGTTCACAACACTTCAGCTAAAGACAATTAAATAGCTAAATATGAAATAA
+	//                                                                           |434|
+ |435|	xaa     CCTCCTTCTGAAGTCACTTTCACTACTCTTATTGCTGAGCTGGTTATTCAGAGCCAGCAATTGGG
+	//                                                                       |435|
+ |436|	xaa     TAGCTGCCGAATCTTCTACTGGTACATGGACAACTGTGTGGACCGATGGACTTACTAGCCTTGATCGTT
+	//                                                                           |436|
+ |437|	xaa     AAACGGACAAACACCCAAAGAAACTTCATGACACCCCGTGATGAA
+	//                                                   |437|
+ |438|	xaa     GCATTTCCCCGTGACTCGCCACTAGCCATGGACATGTCGACGGCTATTTTAACGCTATCCGAAAATGGC
+	//                                                                           |438|
+ |439|	xaa     TCCCTGAGCCCAGCTTGTAGCAAGCCAAAAGTCTGACTTAAACCTACTTTGCTAAGAGAAGAGAGAGAA
+	//                                                                           |439|
+ |440|	xaa     AATTTTCTCGGTCGCTGGGTGCATAACGTTAATACTGAAAGATAATAATCAAAATGAGCGAATTGAGTT
+	//                                                                           |440|
+ |441|	xaa     TACAAAATCCATTCACGATTCAAACAAAATAATAATAACAAAAATTAGAGAGAGGGAGGGAGAGACCGC
+	//                                                                           |441|
+ |442|	xaa     GTCGCCTCCTGAGCGCCGCCAGTAACTCTGCCAGTTGTCGCTCGTGGAAAACAAGACCAGGTTGTAATC
+	//                                                                           |442|
+ |443|	xaa     AGGAGCCTCTCGNTCATGCAGCCGCAATAATAGCCGATGTCCTCGAAAATNCTGAAACAAATCATGTTA
+	//                                                                           |443|
+ |444|	xaa     TGATCTTGAATAGGAATCCTACAGCGATAAATAGAATCCCCATAAAAATACCACTAGATCGAGCACCAG
+	//                                                                           |444|
+ |445|	xaa     ACTCTGTGTAACAAAATGTAATAACATGTGTTATTATCAACTCCTTGATATGGATCATTTTAAGAAATG
+	//                                                                           |445|
+ |446|	xaa     CCGTTAAATGGGCGTGCATTTTTTCAAGCACGCTTAGAACCATCGGAAGCTGGTTATTTTTGTATTCCG
+	//                                                                           |446|
+ |447|	xaa     ATAGAAGANGAGAGTGTTCGGCAAACTCAGGAATTGCATTTGCAAACTATGGTGCAAGATATTNCTGCG
+	//              -                                                      -     |447|
+ |448|	xaa     ATGGTGTCGATACTGACCTCTTTATCGAAATGTAAACTGGGGACATGGGCCCACAAAAACCTCCATCTC
+	//                                                                           |448|
+ |449|	xaa     AAATTATCTTCGCCACATGTCGCCAAGTGATATCCGTTGGGAGAGAAACTGGCACTGCGAATAGGCTCT
+	//                                                                           |449|
+ |450|	xaa     GCTCATGGATTACTGGATGTCTTCTGATCAAAGGCNTGAGTTGGCTATCAAGGCTGCTGANTTTGCCGG
+	//                                                                           |450|
+ |451|	xaa     TCCACTTTGTACCTTTGCTGAGCAGACCAATCAGTCATTTTAGAAAAGGGCTTCTTCAAGTTCCGCTTG
+	//                                                                           |451|
+ |452|	xaa     AACTAACCACTCTATTAGAAAGTCGAATTAGCAACTTTTACACGAATTTTCAAGTGGATGAGATCGGTC
+	//                                                                           |452|
+ |453|	xaa     CAGAAACTCTTTTCCCAATCAATTAATTAAACCCCATTTTATATATTATTCTACAGCTTCATATATATA
+	//                                                                           |453|
+ |454|	xaa     TTGCTGTGGGTGGGGCCGGTTTCGGACTCAACCCACGGGTCTTGGCGGGCACCTGAGCTCATCATCACA
+	//                                                                           |454|
+ |455|	xaa     GCGCATTAACACCCCCCAGCGCGTCATCCTTCTTTAAATGCAAAGAATCAGTATTAGAACCAACAGTAG
+	//                                                                           |455|
+ |456|	xaa     GCCTAACATCTGAAACCCTGATCAGGTCATCAAAACGCCTCTGAAATGGCCAAAGCCTCAAATCCTCCC
+	//                                                                           |456|
+ |457|	xaa     GTCAAAACCTAGCAATCCGCTCCATCGGGGTGCCAGCGGGCTTCCCCTCAAGATTGGAGCGCGGAGTAC
+	//                                                                           |457|
+ |458|	xaa     GCCACTGATCTTTTGAATTCTGATGGCCTGCATGATACTGTTCATTTTAGTGGAAAAAATGCTGTTGCA
+	//                                                                           |458|
+ |459|	xaa     CAGCAGCAGCAAGTAGCAGTGGTGGTGTTCTTGGAAGGCTGGCAGAGGACGAAAGTTGCTTACTGGATG
+	//                                                                           |459|
+ |460|	xaa     ATCGTAATGCTCCTAGAGAGGCATATTTCGAATATAGAGGAGTCAAAGTTCCCAACAATCAAGTAGTTT
+	//                                                                           |460|
+ |461|	xaa     CTTTCCCACTCCCTTTGATTATCATATACAAAAAAGTATATCCCACCAGACCGTACCCTTTAGAGTTAA
+	//                                                                           |461|
+ |462|	xaa     AGGCAAAATGTCTTCAGGCCAAGTCTTGGTCACATCAAGCGGATCGAAATCAAAGCTGTCTTCGTGATC
+	//                                                                           |462|
+ |463|	xaa     CCTCTCAACCTATGCATAYCAATGTAAACTGTACYAATATGTTAGTGAGAGAAACGGATATAANCAAAT
+	//                        -               -                                  |463|
+ |464|	xaa     GGACCAATCATGCTAGTTGGGCGATATGCTTAACACATACAAGCCCAACGTAGTTTTCTTGGAAACGCC
+	//                                                                           |464|
+ |465|	xaa     GGAAAGAAGCCATTGGCTGCAAGTGGATTTACAAGATCAAGCATAAAGCAGATGGCTCGGTAGAG
+	//                                                                       |465|
+ |466|	xaa     GCTGCTGAATTCTTGGAGATCTCTCGTCTGAGGGACCTGACAATCCAGGCTGTAGGTGACATGAGATTA
+	//                                                                           |466|
+ |467|	xaa     CAACAACAACAACAAGGTTATTATTGTGGGTGTACGCCATGTGGTAGTCGAGCACTTAGTTTTTTCGGG
+	//                                                                           |467|
+ |468|	xaa     CCCAATAATGTTTCATGGCCCGTGGGCTATTTCACGGGCTGACCCGTGATCCGTAGACCGTGTGCTTGG
+	//                                                                           |468|
+ |469|	xaa     CTAAACAAGTGTAGGGCGTTCAGCACGGCTATGGACTGAGCGATAATGACTAGCGGGGGGGTCACAGGG
+	//                                                                           |469|
+ |470|	xaa     AGGCAGAACCAAAACAGTATATCTTTCATCTTCAGCCTACTGTTGGTGGAGATTTTCAGGATTTGCGTG
+	//                                               -                           |470|
+ |471|	xaa     AATGCGAACGCGCTGAAAGCGGGCGACAGCGAGATACACCCGTGGCATCTGCACGGTCATGATTTTTGG
+	//                                                                           |471|
+ |472|	xaa     TTATCTTGGCCGGCGACCCAGATCTAATGAACAACGACAACGACCGCCTCACTCTGCAACAAAAACAAA
+	//                                                                           |472|
+ |473|	xaa     ATTGCATTTGCTGTTCATGATAAATTTCCTAAACAGCAGCAGCTAAAAAAATAAATTAAAAATCAAGTA
+	//                                                                           |473|
+ |474|	xaa     GTTCACCACTAGAGAAGGCCTTGCAGGTAACAAAAATAGATGAATTGAATGAGGAAATTGCTAGAATGT
+	//                                                                           |474|
+ |475|	xaa     TTTTTATTCTTTTGTTTGACTCAAACTAAGTCCTTTAGTTGGCGAACGACCAGACTAGACCAAATTGAA
+	//                                                                           |475|
+ |476|	xaa     AAGCTTCACCGGCCGGGTACTAATCCTTATTTTGCTCGTTAGATATTAGGGTTATAAGTTTTGAGTTGT
+	//                                                                           |476|
+ |477|	xaa     ATCAANGGCATTTTCCCACACAGGGCAAACAAAAACAATTAGTAGCATCCATATTTTCCCAAAGTTTCT
+	//           -                                                               |477|
+ |478|	xaa     CAGGGTTGCAGGTCGACAAAACCATCYTCACAACAAAAAGGTCTTCAGGAAAAGTATCTGAACTCGGGA
+	//                                -                                          |478|
+ |479|	xaa     GATCAGATGACGAGTCCATACAGAAGGCGAACATTGAGGGACGGTCTGTCAAGAGGCGATAAGAAGTCA
+	//                                                                           |479|
+ |480|	xaa     TGCTCCAATTTAACTATTTTCTATTTACCCGACAACATAGGCACCATGAGT
+	//                                                         |480|
+ |481|	xaa     CTGATGAGTGATGGTAGC-AGCCTTTTGCTTTTGTTGGTGCAAGGGGAAGTAAACTGTCTTTTGTTCCCT
+	//        -                                                                   |481|
+ |482|	xaa     CNCTGCTCAATCAATTACTTGGTGGGCTTCGGTGTGGTGATGGCGAGGAACGNAGTGACTCGATTTGGG
+	//      -                -                                         -         |482|
+ |483|	xaa     CCTCGTATCTTCTAGTGGTGTCCCGAATATCGAACCAAAAAGTGCTCCCATGGATGGTTTCTCCGACGG
+	//                                                                           |483|
+ |484|	xaa     CCACTCCTCCTCGTCTCCTCCTCCTCCTCCGCAACTAGGCACTGCCGCCTGTGGGCAAACTAACTCCAC
+	//                                                                           |484|
