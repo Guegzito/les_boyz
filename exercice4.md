@@ -1,12 +1,4 @@
-###                                                      Un document d'exemple
-
-barriere@barriere-ThinkPad-X220 ~/B/G/b/ALL>
-
-<ol>
-    <li>Introduction</li>
-    <li>Exercice 4</li>
-    <li>Exercice 5</li>
-</ol>
+###                                                    TOP SECRET : Projet pedicularis
 
 ## Introduction 
 
