@@ -126,4 +126,4 @@ iPyrad.alleles.loci2fasta( alleles.loci = "pedicularis.loci", output.dir = "exer
 #*appelez le script dans le terminale*
 
 ```bash
-Rscript dcript exo5.R
+Rscript scriptexo5.R
