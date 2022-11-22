@@ -131,6 +131,13 @@ MET ça la PAUL
 
 *Transformation du .loci en .fasta* 
 
+#*appelez le script dans le terminal*
+
+```bash
+Rscript scriptexo5.R
+```
+#Le script en question
+
 ```{r}
 #' iPyrad alleles.loci file to fasta alignments conversion
 #' @description Converts iPyrad alleles.loci file to fasta alignmets.
@@ -167,12 +174,6 @@ iPyrad.alleles.loci2fasta <- function(alleles.loci, output.dir){
   
 }
 iPyrad.alleles.loci2fasta( alleles.loci = "pedicularis.loci", output.dir = "exercice5")
-```
-
-#*appelez le script dans le terminal*
-
-```bash
-Rscript scriptexo5.R
 ```
 
 
