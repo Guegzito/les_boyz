@@ -126,7 +126,18 @@ On obtenait cette sortie
 On a ensuite été confronté à un problème que l'ont a résolu en utilisant la bonne vieille touche effacer de notre clavier et on a obtenu cette sortie 
 
 ```bash
-MET ça la PAUL
+|0|	xaa     GGGAATCTCCACTCACTGCTTCCCCTAATATCCTCCCTTTACCACATCATGGGGGTTTACAGGAGATCC
+//                                                                           |0|
+|1|	xaa     GTGGTGATTTCGATGGTTTTGATGGTGTCGTGGATTGGAATGATGTGCCTGGTGGTGATTTTGACGAGG
+//                                                                           |1|
+|2|	xaa     AAGCCTGCTTGTACAGGTTGCTCAACCCGGATCGAGCTGGCGGGGCGTCTTTGTCCGATTCATTGACTG
+//                                                                           |2|
+|3|	xaa     CAGCAGCTGGTGTTCGTGTTCGTGTTCGCGCCCTTTCGCCTTTGACGCAGCACAAGAAGAGTCAAAGTC
+//                                                                           |3|
+|4|	xaa     CCACCTTTNTTCCGGTGNTTTTTTTTTATCAATTTAAAAATATATTGGGAAATTTAGATTTGGTTTTATC
+//                                                                            |4|
+|5|	xaa     TTTTACTGCGCTTTTGAGGATATAAGACGCAAATTGAATCTCGTTCTTAGACCCACCAAATCCGTTGAT
+//                                                                           |5|
  ```
 
 *Transformation du .loci en .fasta* 
