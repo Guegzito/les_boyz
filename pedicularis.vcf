@@ -8,7 +8,7 @@
 ##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
 ##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
 ##FORMAT=<ID=CATG,Number=1,Type=String,Description="Base Counts (CATG)">
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	trancheaa	trancheab	trancheac
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	xaa	xab	xac
 RAD_7	56	loc7_pos55	C	T	13	PASS	NS=2;DP=32	GT:DP:CATG	0/0:10:9,0,1,0	./.:7:6,0,1,0	1/0:15:11,0,4,0
 RAD_8	16	loc8_pos15	C	A	13	PASS	NS=2;DP=26	GT:DP:CATG	0/1:6:2,4,0,0	./.:11:9,2,0,0	0/0:9:9,0,0,0
 RAD_8	25	loc8_pos24	G	A	13	PASS	NS=2;DP=26	GT:DP:CATG	0/1:6:0,4,0,2	./.:11:0,2,0,9	0/0:9:0,0,0,9
