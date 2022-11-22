@@ -1,6 +1,6 @@
-###                                                    TOP SECRET : Projet pedicularis
+##                                                    TOP SECRET : Projet pedicularis
 
-## Introduction 
+### Introduction 
 
 ```bash
 #Les exercices ont été réalisés sur des fichiers .loci et .vcf obtenu via ipyrad sur des séquences d'Orobranches avec les paramètres ci dessous
