@@ -123,4 +123,6 @@ iPyrad.alleles.loci2fasta <- function(alleles.loci, output.dir){
 iPyrad.alleles.loci2fasta( alleles.loci = "pedicularis.loci", output.dir = "exercice5")
 ```
 
+# appelez le script dans le terminale
 
+Rscript dcript exo5.R
