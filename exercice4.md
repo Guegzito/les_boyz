@@ -11,6 +11,13 @@
 > okay trop fun
 
 ```bash
+head pedicularis.vcf
+```
+
+```bash
+cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
+```
+```bash
 RAD_7	56	loc7_pos55	C	T	13	PASS	NS=2;DP=32	GT:DP:CATG	0/0:10:9,0,1,0	./.:7:6,0,1,0	1/0:15:11,0,4,0
 RAD_8	16	loc8_pos15	C	A	13	PASS	NS=2;DP=26	GT:DP:CATG	0/1:6:2,4,0,0	./.:11:9,2,0,0	0/0:9:9,0,0,0
 RAD_8	25	loc8_pos24	G	A	13	PASS	NS=2;DP=26	GT:DP:CATG	0/1:6:0,4,0,2	./.:11:0,2,0,9	0/0:9:0,0,0,9
@@ -28,14 +35,6 @@ RAD_30	24	loc30_pos23	A	G	13	PASS	NS=2;DP=35	GT:DP:CATG	./.:12:0,10,0,2	0/0:6:0,
 RAD_30	55	loc30_pos54	T	C	13	PASS	NS=2;DP=35	GT:DP:CATG	./.:12:2,0,10,0	0/0:6:0,0,6,0	0/1:17:7,0,9,1
 RAD_32	17	loc32_pos16	T	G	13	PASS	NS=2;DP=87	GT:DP:CATG	./.:29:0,0,25,4	1/0:36:0,0,28,8	0/0:22:0,0,20,2
 RAD_35	26	loc35_pos25	A	G
-```
-
-```bash
-head pedicularis.vcf
-```
-
-```bash
-cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
 ```
 
 ```bash
@@ -113,14 +112,6 @@ On obtenait cette sortie
 	//                                                                            |4|
  |5|	xaa     TTTTACTGCGCTTTTGAGGATATAAGACGCAAATTGAATCTCGTTCTTAGACCCACCAAATCCGTTGAT
 	//                                                                           |5|
- |6|	xaa     ATTCCATTAATTACTAACAGTTTATAGACACAAGTTTAGAACTAGGTNAAGAAGGGGCTTCGATAGCTT
-	//                                                                           |6|
- |7|	xaa     CCGAAGTTGGGCCCCGGCTATTCTTTGATGTTTACGATGCCATCATTTTAGCAGACAATCCTAGGGTTG
-	//                                                             -             |7|
- |8|	xaa     TCGGGGTTCACACAGMTGTGAAAARACCCTCCTTCAAGGATGTGGTNGATTCTGKGATTCCCAAATCCC
-	//                     -        -                             -              |8|
- |9|	xaa     CAGGTGCTTCAACACTCAGGCCAACAGCCTGTTTGGGGTACAAGGACATTTGCGGGACACAACACGAAC
-	//                                                                           |9|
  ```
  
 On a ensuite été confronté à un problème que l'ont a résolu en utilisant la bonne vieille touche effacer de notre clavier et on a obtenu cette sortie 
@@ -197,10 +188,21 @@ création de la banque de données regroupant toutes les séquences ribosomales 
 ```bash
 blastdb_aliastool -dblist "SSU_eukaryote_rRNA LSU_eukaryote_rRNA ITS_eukaryote_sequences" -dbtype nucl -out ribosome_all -title "pedicularis ribosome"
 ```
+La commande blastn
 
 ```bash
-
+blastn -db ribosome_all -query allfiles.fasta -max_target_seqs 1 -outfmt 6 > zebi2.txt
 ```
+Le tableau qu'on obtient 
 
 ```bash
+barriere@barriere-ThinkPad-X220 ~/B/G/b/ALL> cat zebi2.txt
+|56|	KM213403.1	100.000	69	0	0	1	69	5728	5796	8.15e-30	128
+|162|	AY189043.1	100.000	68	0	0	2	69	121	54	2.93e-29	126
+|241|	U38314.1	100.000	69	0	0	1	69	82	14	8.15e-30	128
+|331|	U38314.1	100.000	69	0	0	1	69	929	861	8.15e-30	128
+|337|	AY727943.1	100.000	69	0	0	1	69	2646	2714	8.15e-30	128
+|370|	MT796508.1	100.000	47	0	0	1	47	620	666	7.36e-18	87.9
+|397|	U38314.1	100.000	69	0	0	1	69	1334	1266	8.15e-30	128
 ```
+Les loci 56, 162,241,331,337,370,397 sont donc des locis ribosomaux 
