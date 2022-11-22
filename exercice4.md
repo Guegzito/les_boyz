@@ -1,5 +1,3 @@
-![Ceci est un exemple d'image](https://example.com/bild.jpg)
-
 ###                                                      Un document d'exemple
 
 barriere@barriere-ThinkPad-X220 ~/B/G/b/ALL>
@@ -10,7 +8,7 @@ barriere@barriere-ThinkPad-X220 ~/B/G/b/ALL>
     <li>Exercice 5</li>
 </ol>
 
-##Introduction 
+## Introduction 
 
 ```bash
 #Les exercices ont été réalisés sur des fichiers .loci et .vcf obtenu via ipyrad sur des séquences d'Orobranches avec les paramètres ci dessous
@@ -47,12 +45,13 @@ p, s, l, v                       ## [27] [output_formats]: Output formats (see d
                                ## [29] [reference_as_filter]: Reads mapped to this reference are removed in this step
 			       ```
 			       
-##Exercice 4 
+##  Exercice 4 
 
-> Tout d'abord jetons un coup d'oeil au fichier pedicularis.vcf
+Tout d'abord jetons un coup d'oeil au fichier pedicularis.vcf
 
 ```bash
-barriere@barriere-ThinkPad-X220 ~/B/G/b/ALL> head pedicularis.vcf
+head pedicularis.vcf
+
 ##fileformat=VCFv4.0
 ##fileDate=2022/11/18
 ##source=ipyrad_v.0.9.85
@@ -79,11 +78,12 @@ RAD_26	9	loc26_pos8	T	G	13	PASS	NS=3;DP=23	GT:DP:CATG	0/0:10:0,0,9,1	1/0:7:0,0,5
 RAD_26	56	loc26_pos55	T	C	13	PASS	NS=3;DP=23	GT:DP:CATG	0/0:10:1,0,9,0	0/1:7:2,0,5,0	0/0:6:0,0,6,0
 ```
 
-```bash
-cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
-```
+Nous allons enlever les premières lignes de la première colonne afin de n'avoir que les informations utiles à l'analyse des SNP
 
 ```bash
+cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
+
+cat pedicularis.vcf | tail -n +12 $1 >> pedicularislevrai.vcf
 RAD_7	56	loc7_pos55	C	T	13	PASS	NS=2;DP=32	GT:DP:CATG	0/0:10:9,0,1,0	./.:7:6,0,1,0	1/0:15:11,0,4,0
 RAD_8	16	loc8_pos15	C	A	13	PASS	NS=2;DP=26	GT:DP:CATG	0/1:6:2,4,0,0	./.:11:9,2,0,0	0/0:9:9,0,0,0
 RAD_8	25	loc8_pos24	G	A	13	PASS	NS=2;DP=26	GT:DP:CATG	0/1:6:0,4,0,2	./.:11:0,2,0,9	0/0:9:0,0,0,9
@@ -100,20 +100,81 @@ RAD_26	56	loc26_pos55	T	C	13	PASS	NS=3;DP=23	GT:DP:CATG	0/0:10:1,0,9,0	0/1:7:2,0
 RAD_30	24	loc30_pos23	A	G	13	PASS	NS=2;DP=35	GT:DP:CATG	./.:12:0,10,0,2	0/0:6:0,6,0,0	1/0:17:0,9,1,7
 ```
 
-```bash
-head pedicularislevrai.vcf
-```
+Maintenant commençons par stocker la colonne LOCUS dans une variable $LOC
 
 ```bash
 LOC=$(cut -f 1 ./pedicularislevrai.vcf)
+RAD_7
+RAD_8
+RAD_8
+RAD_8
+RAD_14
+RAD_14
+RAD_16
+RAD_17
+RAD_24
+RAD_24
+RAD_24
+RAD_26
+RAD_26
+RAD_30
+RAD_30
+RAD_32
+RAD_35
+RAD_42
+RAD_43
+RAD_43
+RAD_44
+
 ```
+Stockons ensuite la colonne position dans une autre variable appelée $POS
 
 ```bash
 POS=$(cut -f 2 ./pedicularislevrai.vcf)
 ```
+Nous voulons ensuite connaitre le nombre d'allèle que chaque individu a par loci
+- Pour cela nous allons subset la colonne correspondant à l'individu 
+- Puis nous allons subset la troisième colonne en spécifiant que le séparateur est ':'; plutot habile car notre colonne est structurée comme ceci ```1/0:15:11,0,4,0```
+- La stratégie est de soustraire à 4 le nombre de zéro et donc le nombre d'allèles inéxistantes pour ce SNP, pour cela nous allons remplacer tous les 10, 20, 30, 40, 50 par des 1, puis les 1-9 et les , par des ' ' avant de remplacer les ' ' par des ''.  
 
 ```bash
 ind1=$(cut -f 10 ./pedicularislevrai.vcf | cut -d ':' -f 3 | sed "s/10/1/g" |sed "s/20/1/g" | sed "s/30/1/g" | sed "s/40/1/g" | sed "s/1/ /g" | sed "s/2/ /g" | sed "s/3/ /g" | sed "s/4/ /g" | sed "s/5/ /g" | sed "s/6/ /g" | sed "s/7/ /g" | sed "s/8/ /g" | sed "s/9/ /g" | sed "s/,/ /g" | sed "s/ //g" | awk '{ print length-4 }' | sed "s/-/ /g" | sed "s/ //g" )
+
+2
+2
+2
+2
+1
+3
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+
+
 ```
 
 ```bash
@@ -123,10 +184,47 @@ ind2=$(cut -f 11 ./pedicularislevrai.vcf | cut -d ':' -f 3 | sed "s/10/1/g" |sed
 ```bash
 ind3=$(cut -f 12 ./pedicularislevrai.vcf | cut -d ':' -f 3 | sed "s/10/1/g" |sed "s/20/1/g" | sed "s/30/1/g" | sed "s/40/1/g" | sed "s/1/ /g" | sed "s/2/ /g" | sed "s/3/ /g" | sed "s/4/ /g" | sed "s/5/ /g" | sed "s/6/ /g" | sed "s/7/ /g" | sed "s/8/ /g" | sed "s/9/ /g" | sed "s/,/ /g" | sed "s/ //g" | awk '{ print length-4 }' | sed "s/-/ /g" | sed "s/ //g" )
 ```
+Nous avons donc le nombre d'allèles intraspécifiques 
+Place aux nombre d'allèles interspécifiques 
 
 ```bash
 inter=$(cut -f 5 ./pedicularislevrai.vcf | sed "s/,/ /g" | sed "s/ //g" | awk '{ print length+1 }' )
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+#tout va bien étant donné qu'on a que des SNP :)
 ```
+Nous regroupons maintenant nos variables avant des les invoquer
 
 ```bash
 paste <(echo "${LOC}") <(echo "${POS}") <(echo "${ind1}") <(echo "${ind2}") <(echo "${ind3}") <(echo "${inter}") >>final.txt
@@ -137,16 +235,194 @@ paste <(echo "${LOC}") <(echo "${POS}") <(echo "${ind1}") <(echo "${ind2}") <(ec
 ```
 
 ```bash
-cat final2.txt
+barriere@barriere-ThinkPad-X220 ~/B/G/exo> ./youpi.sh ./pedicularis.vcf 
+LOC    POS   trancheaa  trancheab  trancheac  INTER
+RAD_7	56	2	2	2	2
+RAD_8	16	2	2	1	2
+RAD_8	25	2	2	1	2
+RAD_8	55	2	2	1	2
+RAD_14	65	1	2	2	2
+RAD_14	68	3	2	2	2
+RAD_16	3	2	2	2	2
+RAD_17	13	2	2	2	2
+RAD_24	12	2	2	2	2
+RAD_24	15	2	2	1	2
+RAD_24	22	2	2	2	2
+RAD_26	9	2	2	1	2
+RAD_26	56	2	2	1	2
+RAD_30	24	2	1	3	2
+RAD_30	55	2	1	3	2
+RAD_32	17	2	2	2	2
+RAD_35	26	2	2	2	2
+RAD_42	65	2	2	2	2
+RAD_43	4	2	2	2	2
+RAD_43	38	2	2	2	2
+RAD_44	53	2	2	2	2
+RAD_99	63	1	2	2	2
 ```
-
-```bash
-grep 0 final.txt
-```
-
 Do you observe any loci with intra-individual genetic richness larger than two?
 
+```bash
+grep 0 final2.txt
+
+RAD_14	68     *3*	2	2	2
+RAD_16	3	2	2	2	2
+RAD_17	13	2	2	2	2
+RAD_30	24	2	1	3	2
+RAD_30	55	2	1	3	2
+RAD_32	17	2	2	2	2
+RAD_35	26	2	2	2	2
+RAD_43	4	2	2	2	2
+RAD_43	38	2	2	2	2
+RAD_44	53	2	2	2	2
+RAD_99	63	1	2	2	2
+RAD_112	34	2	2	2	2
+RAD_128	31	2	2	2	2
+RAD_129	13	2	2	2	2
+RAD_129	35	2	2	2	2
+RAD_131	59	2	2	1	2
+RAD_138	55	2	2	2	2
+RAD_143	23	2	2	2	2
+RAD_143	26	2	2	2	2
+RAD_146	63	2	2	2	2
+RAD_153	30	2	2	2	2
+RAD_153	50	2	2	2	2
+RAD_155	13	2	2	2	2
+RAD_161	33	2	2	2	2
+RAD_168	35     *3*	2	3	2
+RAD_168	53	3	3	3	2
+RAD_171	53	2	2	2	2
+RAD_180	63	2	2	2	2
+RAD_181	53	2	2	2	2
+RAD_192	33	2	2	2	2
+RAD_196	34	2	2	2	2
+RAD_207	36	1	2	2	2
+RAD_218	63	2	2	2	2
+RAD_236	46	2	1	2	2
+RAD_293	1	2	2	2	2
+RAD_301	41	2	2	2	2
+RAD_306	44	2	2	2	2
+RAD_308	60	2	2	2	2
+RAD_308	62	2	2	2	2
+RAD_309	66     *3*	3	3	2
+RAD_312	21	2	2	2	2
+RAD_312	40	2	2	2	2
+RAD_315	18	2	2	2	2
+RAD_315	57	2	2	2	2
+RAD_315	59	2	2	2	2
+RAD_317	39	2	2	2	2
+RAD_330	27	1	2	2	2
+RAD_339	10	1	2	2	2
+RAD_339	29	1	2	2	2
+RAD_339	39	1	2	2	2
+RAD_339	57	1	2	2	2
+RAD_340	11	2	2	2	2
+RAD_340	39	2	2	2	2
+RAD_340	43	2	2	2	2
+RAD_342	40	2	2	2	2
+RAD_348	2	2	2	2	2
+RAD_350	67     *3*	2	2	2
+RAD_371	34	2	2	2	2
+RAD_372	50	2	2	2	2
+RAD_372	69	2	2	2	2
+RAD_376	26	2	2	2	2
+RAD_376	53	2	2	2	2
+RAD_379	68	2	2	1	2
+RAD_381	42	2	2	2	2
+RAD_382	18	2	2	2	2
+RAD_382	26	2	2      *3*	2
+RAD_386	2	2	2	2	2
+RAD_386	59	2	2	2	2
+RAD_386	66	2	2	2	2
+RAD_388	51	2	2	2	2
+RAD_389	45	2	2	2	2
+RAD_390	10	2	2	2	2
+RAD_405	35	1	2	1	2
+RAD_409	30	1	2	1	2
+RAD_463	19	2	1	1	2
+RAD_463	35	2	1	1	2
+RAD_481	3	2	2	2	2
+RAD_14	68	3	2	2	2
+RAD_16	3	2	2	2	2
+RAD_17	13	2	2	2	2
+RAD_30	24	2	1	3	2
+RAD_30	55	2	1	3	2
+RAD_32	17	2	2	2	2
+RAD_35	26	2	2	2	2
+RAD_43	4	2	2	2	2
+RAD_43	38	2	2	2	2
+RAD_44	53	2	2	2	2
+RAD_99	63	1	2	2	2
+RAD_112	34	2	2	2	2
+RAD_128	31	2	2	2	2
+RAD_129	13	2	2	2	2
+RAD_129	35	2	2	2	2
+RAD_131	59	2	2	1	2
+RAD_138	55	2	2	2	2
+RAD_143	23	2	2	2	2
+RAD_143	26	2	2	2	2
+RAD_146	63	2	2	2	2
+RAD_153	30	2	2	2	2
+RAD_153	50	2	2	2	2
+RAD_155	13	2	2	2	2
+RAD_161	33	2	2	2	2
+RAD_168	35	*3*	2	*3*	2
+RAD_168	53	*3*	*3*	*3*	2
+RAD_171	53	2	2	2	2
+RAD_180	63	2	2	2	2
+RAD_181	53	2	2	2	2
+RAD_192	33	2	2	2	2
+RAD_196	34	2	2	2	2
+RAD_207	36	1	2	2	2
+RAD_218	63	2	2	2	2
+RAD_236	46	2	1	2	2
+RAD_293	1	2	2	2	2
+RAD_301	41	2	2	2	2
+RAD_306	44	2	2	2	2
+RAD_308	60	2	2	2	2
+RAD_308	62	2	2	2	2
+RAD_309	66	3	3	3	2
+RAD_312	21	2	2	2	2
+RAD_312	40	2	2	2	2
+RAD_315	18	2	2	2	2
+RAD_315	57	2	2	2	2
+RAD_315	59	2	2	2	2
+RAD_317	39	2	2	2	2
+RAD_330	27	1	2	2	2
+RAD_339	10	1	2	2	2
+RAD_339	29	1	2	2	2
+RAD_339	39	1	2	2	2
+RAD_339	57	1	2	2	2
+RAD_340	11	2	2	2	2
+RAD_340	39	2	2	2	2
+RAD_340	43	2	2	2	2
+RAD_342	40	2	2	2	2
+RAD_348	2	2	2	2	2
+RAD_350	67	*3*	2	2	2
+RAD_371	34	2	2	2	2
+RAD_372	50	2	2	2	2
+RAD_372	69	2	2	2	2
+RAD_376	26	2	2	2	2
+RAD_376	53	2	2	2	2
+RAD_379	68	2	2	1	2
+RAD_381	42	2	2	2	2
+RAD_382	18	2	2	2	2
+RAD_382	26	2	2	3	2
+RAD_386	2	2	2	2	2
+RAD_386	59	2	2	2	2
+RAD_386	66	2	2	2	2
+RAD_388	51	2	2	2	2
+RAD_389	45	2	2	2	2
+RAD_390	10	2	2	2	2
+RAD_405	35	1	2	1	2
+RAD_409	30	1	2	1	2
+RAD_463	19	2	1	1	2
+RAD_463	35	2	1	1	2
+RAD_481	3	2	2	2	2
+
+```
 The answer is 'YES'
+Car nous n'avons pas bien réglé nos paramètres dans params_pedicularis.txt !!!!!
 
 
 #*exercice 5*
