@@ -417,7 +417,7 @@ The answer is 'YES'
 Car nous n'avons pas bien réglé nos paramètres dans params_pedicularis.txt !!!!!
 
 
-#*exercice 5*
+## Exercice 5
 
 ```bash
 
