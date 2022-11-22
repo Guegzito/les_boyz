@@ -106,6 +106,10 @@ cat final2.txt
 grep 0 final.txt
 ```
 
+Do you observe any loci with intra-individual genetic richness larger than two?
+
+The answer is 'YES'
+
 
 #*exercice 5*
 
