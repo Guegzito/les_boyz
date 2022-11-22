@@ -419,19 +419,67 @@ Car nous n'avons pas bien réglé nos paramètres dans params_pedicularis.txt !!
 
 ## Exercice 5
 
+Pour commencer nous allons essayer de placer les identifiants des locis de manières à ce qu'ils apparaissent dans la sortie blastn
+
 ```bash
-
-#!/bin/bash
-
 grep "//" pedicularis.loci | sed 's/-/ /g' | sed 's/*/ /g' | sed 's/\///g' | sed 's/\|/\n/' | tr -s " "  > ZEBIloci.txt
-grep -E -i '(xaa|\/\/)' ./pedicularis.loci >> loci.txt
-sed '1d' ./ZEBIloci.txt > ZEBIloci2.txt
-paste ZEBIloci2.txt loci.txt > ZERMA.loci
+head ZEBIloci.txt 
 
-paste locus_*.fasta >> final.txt
-paste ZEBIloci.txt final.txt > YOUPI.txt 
+ |0|
 
+ |1|
+
+ |2|
+
+ |3|
+
+ |4|
 ```
+
+```bash
+grep -E -i '(xaa|\/\/)' ./pedicularis.loci >> loci.txt
+head loci.txt
+xaa     GGGAATCTCCACTCACTGCTTCCCCTAATATCCTCCCTTTACCACATCATGGGGGTTTACAGGAGATCC
+//                                                                           |0|
+xaa     GTGGTGATTTCGATGGTTTTGATGGTGTCGTGGATTGGAATGATGTGCCTGGTGGTGATTTTGACGAGG
+//                                                                           |1|
+xaa     AAGCCTGCTTGTACAGGTTGCTCAACCCGGATCGAGCTGGCGGGGCGTCTTTGTCCGATTCATTGACTG
+//                                                                           |2|
+xaa     CAGCAGCTGGTGTTCGTGTTCGTGTTCGCGCCCTTTCGCCTTTGACGCAGCACAAGAAGAGTCAAAGTC
+//                                                                           |3|
+xaa     CCACCTTTNTTCCGGTGNTTTTTTTTTATCAATTTAAAAATATATTGGGAAATTTAGATTTGGTTTTATC
+//                                                                            |4|
+```
+
+```bash
+sed '1d' ./ZEBIloci.txt > ZEBIloci2.txt
+head ZEBIloci2.txt 
+ |0|
+
+ |1|
+
+ |2|
+
+ |3|
+
+ |4|
+ ```
+ 
+```bash
+paste ZEBIloci2.txt loci.txt > ZERMA.loci
+head ZERMA.loci
+ |0|	xaa     GGGAATCTCCACTCACTGCTTCCCCTAATATCCTCCCTTTACCACATCATGGGGGTTTACAGGAGATCC
+	//                                                                           |0|
+ |1|	xaa     GTGGTGATTTCGATGGTTTTGATGGTGTCGTGGATTGGAATGATGTGCCTGGTGGTGATTTTGACGAGG
+	//                                                                           |1|
+ |2|	xaa     AAGCCTGCTTGTACAGGTTGCTCAACCCGGATCGAGCTGGCGGGGCGTCTTTGTCCGATTCATTGACTG
+	//                                                                           |2|
+ |3|	xaa     CAGCAGCTGGTGTTCGTGTTCGTGTTCGCGCCCTTTCGCCTTTGACGCAGCACAAGAAGAGTCAAAGTC
+	//                                                                           |3|
+ |4|	xaa     CCACCTTTNTTCCGGTGNTTTTTTTTTATCAATTTAAAAATATATTGGGAAATTTAGATTTGGTTTTATC
+	//                                                                            |4|
+```
+
 On obtenait cette sortie 
 
 ```bash
@@ -512,9 +560,7 @@ iPyrad.alleles.loci2fasta <- function(alleles.loci, output.dir){
 }
 iPyrad.alleles.loci2fasta( alleles.loci = "pedicularis.loci", output.dir = "exercice5")
 ```
-
-
-#création de la banque de données 
+Création de la banque de données 
 
 téléchargement de ITS_eukaryote_sequences.tar.gz LSU_eukaryote_rRNA.tar.gz SSU_eukaryote_rRNA.tar.gz
 
