@@ -35,9 +35,9 @@ TGCAG,                         ## [8] [restriction_overhang]: Restriction overha
 p, s, l, v                       ## [27] [output_formats]: Output formats (see docs)
                                ## [28] [pop_assign_file]: Path to population assignment file
                                ## [29] [reference_as_filter]: Reads mapped to this reference are removed in this step
-			       ```
+```
 			       
-##  Exercice 4 
+### Exercice 4 
 
 Tout d'abord jetons un coup d'oeil au fichier pedicularis.vcf
 
@@ -541,3 +541,10 @@ barriere@barriere-ThinkPad-X220 ~/B/G/b/ALL> cat zebi2.txt
 |397|	U38314.1	100.000	69	0	0	1	69	1334	1266	8.15e-30	128
 ```
 Les loci 56, 162,241,331,337,370,397 sont donc des locis ribosomaux 
+Soit une proportion de 7/120 soit ``` 5.8% ```
+
+```bash
+grep 'RAD_162' ./pedicularis.vcf
+'RAD_162	58	1	2	2	2'
+```
+Seul le loci  162 a passé les filtres pour le .vcf, on ne peut donc pas en conclure grand chose 
