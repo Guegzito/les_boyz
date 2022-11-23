@@ -124,7 +124,7 @@ Stockons ensuite la colonne position dans une autre variable appelée $POS
 ```bash
 POS=$(cut -f 2 ./pedicularislevrai.vcf)
 ```
-Nous voulons ensuite connaitre le nombre d'allèle que chaque individu a par loci
+Nous voulons ensuite connaitre le nombre d'allèle que chaque individu pour tous les loci
 - Pour cela nous allons subset la colonne correspondant à l'individu 
 - Puis nous allons subset la troisième colonne en spécifiant que le séparateur est ':'; plutot habile car notre colonne est structurée comme ceci ```1/0:15:11,0,4,0```
 - La stratégie est de soustraire à 4 le nombre de zéro et donc le nombre d'allèles inéxistantes pour ce SNP, pour cela nous allons remplacer tous les 10, 20, 30, 40, 50 par des 1, puis les 1-9 et les , par des ' ' avant de remplacer les ' ' par des ''.  
